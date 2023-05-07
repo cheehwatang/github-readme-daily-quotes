@@ -13,5 +13,8 @@
   "keywords": [],
   "author": "Chee Hwa Tang",
   "license": "ISC",
-  "homepage": "https://github.com/cheehwatang/github-readme-quotes"
+  "homepage": "https://github.com/cheehwatang/github-readme-quotes",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
 }
