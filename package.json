@@ -15,6 +15,7 @@
   "license": "ISC",
   "homepage": "https://github.com/cheehwatang/github-readme-quotes",
   "devDependencies": {
+    "@vercel/node": "^2.14.1",
     "typescript": "^5.0.4"
   }
 }
