@@ -1,0 +1,22 @@
+{
+  "name": "github-readme-quotes",
+  "version": "1.0.0",
+  "description": "Simple Quote Card for Github Readme",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cheehwatang/github-readme-quotes.git"
+  },
+  "keywords": [],
+  "author": "Chee Hwa Tang",
+  "license": "ISC",
+  "homepage": "https://github.com/cheehwatang/github-readme-quotes",
+  "devDependencies": {
+    "@vercel/node": "^2.14.1",
+    "typescript": "^5.0.4",
+    "vercel": "^29.1.1"
+  }
+}

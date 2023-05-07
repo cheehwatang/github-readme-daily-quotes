@@ -3,3 +3,6 @@ node_modules/
 
 # Ignore environment variables and private keys.
 .env
+
+# Ignore vercel generated files
+.vercel
