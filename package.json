@@ -18,5 +18,8 @@
     "@vercel/node": "^2.14.1",
     "typescript": "^5.0.4",
     "vercel": "^29.1.1"
+  },
+  "dependencies": {
+    "axios": "^1.4.0"
   }
 }
