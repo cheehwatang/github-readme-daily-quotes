@@ -1,13 +1,8 @@
-import { QuoteCard, QuoteCardData } from './templates/QuoteCard';
+import { QuoteCard } from './templates/QuoteCard';
+import { fetchQuote } from './utils/fetchQuote';
 
 const renderQuoteCard = (): string => {
-  const quote =
-    'The happiness of your life depends upon the quality of your thoughts.';
-  const author = 'Marcus Aurelius';
-
-  const data: QuoteCardData = { quote, author };
-
-  return QuoteCard.build(data);
+  return QuoteCard.build(fetchQuote());
 };
 
 export { renderQuoteCard };
