@@ -5,7 +5,7 @@ type QuoteData = {
   author: string;
 };
 
-const formatQuoteData = async (data: QuoteData): Promise<QuoteData> => {
+const setQuoteData = async (data: QuoteData): Promise<QuoteData> => {
   const { quote, author } = data;
 
   if (!quote) {
@@ -20,4 +20,4 @@ const formatQuoteData = async (data: QuoteData): Promise<QuoteData> => {
   return data;
 };
 
-export { formatQuoteData, QuoteData };
+export { setQuoteData, QuoteData };

@@ -1,4 +1,4 @@
-import { QuoteData } from '../utils/formatQuoteData';
+import { QuoteData } from '../utils/setQuoteData';
 
 const fetchDefaultQuote = (): QuoteData => {
   const quote =

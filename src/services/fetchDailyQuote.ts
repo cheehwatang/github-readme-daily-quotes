@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { QuoteData } from '../utils/formatQuoteData';
+import { QuoteData } from '../utils/setQuoteData';
 
 type ZenQuotes = {
   q: string;
