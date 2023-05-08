@@ -1,5 +1,5 @@
 class QuoteCard {
-  static build = (): string => {
+  static build = (quote: string, author: string): string => {
     return `
       <svg width="500" height="200" fill="none" xmlns="http://www.w3.org/2000/svg">
         <foreignObject width="100%" height="100%">
@@ -66,10 +66,10 @@ class QuoteCard {
             <div class="card">
               <h1 class="quote">
                 <span class="text-concat">
-                  Life is long, if you know how to use it.
+                  ${quote}
                 </span>
               </h1>
-              <p class="author">Seneca</p>
+              <p class="author">${author}</p>
             </div>
           </div>
         </foreignObject>
