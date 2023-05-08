@@ -1,4 +1,4 @@
-import { QuoteData } from '../utils/formatQuoteData';
+import { QuoteData } from '../utils/setQuoteData';
 
 class QuoteCard {
   static build = (data: QuoteData): string => {

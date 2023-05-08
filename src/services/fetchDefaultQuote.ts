@@ -1,6 +1,6 @@
-import { QuoteData } from '../utils/formatQuoteData';
+import { QuoteData } from '../utils/setQuoteData';
 
-const fetchQuote = (): QuoteData => {
+const fetchDefaultQuote = (): QuoteData => {
   const quote =
     'If a man knows not to which port he sails, no wind is favorable.';
   const author = 'Seneca';
@@ -8,4 +8,4 @@ const fetchQuote = (): QuoteData => {
   return { quote, author };
 };
 
-export { fetchQuote };
+export { fetchDefaultQuote };
