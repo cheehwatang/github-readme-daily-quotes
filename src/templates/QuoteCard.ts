@@ -1,7 +1,4 @@
-interface QuoteData {
-  quote: string;
-  author: string;
-}
+import { QuoteData } from '../utils/formatQuoteData';
 
 class QuoteCard {
   static build = (data: QuoteData): string => {
@@ -85,4 +82,4 @@ class QuoteCard {
   };
 }
 
-export { QuoteCard, QuoteData };
+export { QuoteCard };
