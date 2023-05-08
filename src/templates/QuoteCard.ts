@@ -1,10 +1,10 @@
-interface QuoteCardData {
+interface QuoteData {
   quote: string;
   author: string;
 }
 
 class QuoteCard {
-  static build = (data: QuoteCardData): string => {
+  static build = (data: QuoteData): string => {
     const { quote, author } = data;
 
     return `
@@ -85,4 +85,4 @@ class QuoteCard {
   };
 }
 
-export { QuoteCard, QuoteCardData };
+export { QuoteCard, QuoteData };

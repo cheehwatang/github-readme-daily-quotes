@@ -1,8 +1,7 @@
-import { QuoteCard } from './templates/QuoteCard';
-import { fetchQuote } from './utils/fetchQuote';
+import { QuoteCard, QuoteData } from './templates/QuoteCard';
 
-const renderQuoteCard = (): string => {
-  return QuoteCard.build(fetchQuote());
+const renderQuoteCard = (data: QuoteData): string => {
+  return QuoteCard.build(data);
 };
 
 export { renderQuoteCard };
