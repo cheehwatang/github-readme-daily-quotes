@@ -10,7 +10,7 @@ interface Query {
 const handler = async (request: VercelRequest, response: VercelResponse) => {
   const { quote, author } = request.query as unknown as Query;
 
-  const data: QuoteData = formatQuoteData({ quote, author });
+  const data: QuoteData = await formatQuoteData({ quote, author });
 
   response.setHeader('Content-Type', 'image/svg+xml');
   response.setHeader('Cache-Control', `public, max-age=300`);

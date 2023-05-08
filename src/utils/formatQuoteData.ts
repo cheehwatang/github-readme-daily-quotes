@@ -1,15 +1,15 @@
-import { fetchQuote } from './fetchQuote';
+import { fetchDailyQuote } from '../services/fetchDailyQuote';
 
-interface QuoteData {
+type QuoteData = {
   quote: string;
   author: string;
-}
+};
 
-const formatQuoteData = (data: QuoteData): QuoteData => {
+const formatQuoteData = async (data: QuoteData): Promise<QuoteData> => {
   const { quote, author } = data;
 
   if (!quote) {
-    data = fetchQuote();
+    data = await fetchDailyQuote();
   } else if (quote && !author) {
     data = {
       quote,
