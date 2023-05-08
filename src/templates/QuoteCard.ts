@@ -1,5 +1,12 @@
+interface QuoteCardData {
+  quote: string;
+  author: string;
+}
+
 class QuoteCard {
-  static build = (quote: string, author: string): string => {
+  static build = (data: QuoteCardData): string => {
+    const { quote, author } = data;
+
     return `
       <svg width="500" height="200" fill="none" xmlns="http://www.w3.org/2000/svg">
         <foreignObject width="100%" height="100%">
@@ -78,4 +85,4 @@ class QuoteCard {
   };
 }
 
-export { QuoteCard };
+export { QuoteCard, QuoteCardData };
