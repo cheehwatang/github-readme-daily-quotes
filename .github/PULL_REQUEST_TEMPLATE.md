@@ -18,10 +18,19 @@ Please include a summary of the changes and the link to the ticket (jira/canban 
 
 ## Related Tickets & Documents
 
-Please link pull request to issue using this format: Fixes Issue #123
+<!--
+Using keywords such as Closes #10, or Fixes #5 links to the issue and closes it once the pull request is merged.
 
-- Fixes and Closes Issue #
-- Related Issue #
+For multiple issues:
+Resolves #10, resolves #123, resolves octo-org/octo-repo#100
+
+For more information:
+https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue
+ -->
+
+Please link pull request to issue using this format: Fixes #123
+
+- Fixes # (issue)
 
 ## How Has This Been Tested?
 
