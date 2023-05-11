@@ -1,6 +1,8 @@
 ## Type of Change
 
+<!--
 Please delete options that are not relevant.
+ -->
 
 - [ ] ✨ New Feature
 - [ ] 🐛 Bug Fix
@@ -14,7 +16,9 @@ Please delete options that are not relevant.
 
 ## Description
 
+<!--
 Please include a summary of the changes and the link to the ticket (jira/canban board etc). Please also include relevant motivation and context. List any dependencies that are required for this change.
+ -->
 
 ## Related Tickets & Documents
 
@@ -28,20 +32,22 @@ For more information:
 https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue
  -->
 
-Please link pull request to issue using this format: Fixes #123
-
 - Fixes # (issue)
 
 ## How Has This Been Tested?
 
+<!--
 Please describe the tests that you ran to verify your changes. Provide instructions so we can reproduce. Please also list any relevant details for your test configuration.
+ -->
 
 - [ ] Screenshot A
 - [ ] Screenshot B
 
 ## Added or Updated Tests?
 
+<!--
 Please delete options that are not relevant.
+ -->
 
 - [ ] 👍 Yes
 - [ ] 🙅 No, and this is why: please replace this line with details on why tests have not been included
