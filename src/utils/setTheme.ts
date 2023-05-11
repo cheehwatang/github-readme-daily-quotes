@@ -1,4 +1,5 @@
-import { themes } from '../themes/themes';
+import { themes } from '../themes';
+import { defaultTheme } from '../config/defaults';
 
 type Theme = {
   textColor: string;
@@ -8,7 +9,7 @@ type Theme = {
 };
 
 const setTheme = (theme: string): Theme => {
-  return themes[theme] || themes.default;
+  return themes[theme] || defaultTheme;
 };
 
 export { setTheme, Theme };
