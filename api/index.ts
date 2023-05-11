@@ -15,6 +15,13 @@ interface Query {
   keyword: string;
 }
 
+const CONSTANTS = {
+  TEN_MINUTES: 600,
+  ONE_HOURS: 3600,
+  FOUR_HOURS: 14400,
+  ONE_DAY: 86400,
+};
+
 const handler = async (request: VercelRequest, response: VercelResponse) => {
   const {
     quote,
@@ -39,7 +46,10 @@ const handler = async (request: VercelRequest, response: VercelResponse) => {
   });
 
   response.setHeader('Content-Type', 'image/svg+xml');
-  response.setHeader('Cache-Control', `public, max-age=300`);
+  response.setHeader(
+    'Cache-Control',
+    `public, max-age=${CONSTANTS.TEN_MINUTES}, s-maxage=${CONSTANTS.FOUR_HOURS}, stale-while-revalidate=${CONSTANTS.ONE_DAY}`
+  );
   response.send(renderQuoteCard(quoteData, themeData));
 };
 
