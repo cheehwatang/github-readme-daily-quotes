@@ -1,5 +1,6 @@
 import { fetchDailyQuote } from '../services/fetchDailyQuote';
 import { fetchStoicismQuote } from '../services/fetchStoicismQuote';
+import { fetchProgrammingQuote } from '../services/fetchProgrammingQuote';
 
 type QuoteData = {
   quote: string;
@@ -10,8 +11,14 @@ const setQuoteData = async (
   data: QuoteData,
   keyword: string
 ): Promise<QuoteData> => {
-  if (keyword === 'stoicism') {
-    return await fetchStoicismQuote();
+  // If keyword is provided, call the respective service for quote data.
+  switch (keyword) {
+    case 'stoicism': {
+      return await fetchStoicismQuote();
+    }
+    case 'programming': {
+      return await fetchProgrammingQuote();
+    }
   }
 
   // If no keyword is provided, then get customized quote or daily quote.
