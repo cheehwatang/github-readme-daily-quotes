@@ -1,8 +1,11 @@
 import { QuoteData } from '../utils/setQuoteData';
+import { Theme } from '../utils/setTheme';
 
 class QuoteCard {
-  static build = (data: QuoteData): string => {
+  static build = (data: QuoteData, theme: Theme): string => {
     const { quote, author } = data;
+
+    const { textColor, bgColor, accentColor, borderColor } = theme;
 
     return `
       <svg width="500" height="200" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -16,11 +19,11 @@ class QuoteCard {
               }
               .card {
                 font-family: Helvetica, sans-serif;
-                background-color: #0d1117;
+                background-color: #${bgColor};
                 padding: 18px;
                 width: 500px;
                 height: 200px;
-                border: 2px solid #c3d1d9;
+                border: 2px solid #${borderColor};
                 border-radius: 12px;
                 display: flex;
                 flex-direction: column;
@@ -28,14 +31,14 @@ class QuoteCard {
               }
               .quote {
                 font-size: 1.2rem;
-                color: #c3d1d9;
+                color: #${textColor};
                 padding: 0 1rem;
               }
               .quote::before,
               .quote::after {
                 display: block;
                 font-size: 2.4rem;
-                color: #58a6ff;
+                color: #${accentColor};
                 margin-bottom: -1rem;
               }
               .quote::before {
@@ -51,13 +54,13 @@ class QuoteCard {
               .author {
                 font-size: 0.8rem;
                 font-style: italic;
-                color: #c3d1d9;
+                color: #${textColor};
               }
               .author::before {
                 display: block;
                 content: '';
                 width: 1.5rem;
-                border-bottom: solid 3px #58a6ff;
+                border-bottom: solid 3px #${accentColor};
                 margin-bottom: 1rem;
               }
               .text-concat {
