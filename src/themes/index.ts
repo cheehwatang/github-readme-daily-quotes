@@ -1,7 +1,7 @@
 import { Theme } from '../utils/setTheme';
 
 const themes: { [key: string]: Theme } = {
-  default: {
+  github_dark: {
     textColor: 'c3d1d9',
     bgColor: '0d1117',
     accentColor: '58a6ff',
