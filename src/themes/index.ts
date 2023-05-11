@@ -1,0 +1,20 @@
+import { Theme } from '../utils/setTheme';
+
+const themes: { [key: string]: Theme } = {
+  light: {
+    bg_color: 'fffefe',
+    quote_color: '2f80ed',
+    author_color: '434d58',
+    accent_color: '4c71f2',
+    border_color: 'e4e2e2',
+  },
+  github_dark: {
+    bg_color: '0d1117',
+    quote_color: '58a6ff',
+    author_color: 'c3d1d9',
+    accent_color: '1f6feb',
+    border_color: 'e4e2e2',
+  },
+};
+
+export { themes };
