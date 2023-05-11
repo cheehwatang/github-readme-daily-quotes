@@ -5,7 +5,8 @@ class QuoteCard {
   static build = (data: QuoteData, theme: Theme): string => {
     const { quote, author } = data;
 
-    const { textColor, bgColor, accentColor, borderColor } = theme;
+    const { bg_color, quote_color, author_color, accent_color, border_color } =
+      theme;
 
     return `
       <svg width="500" height="200" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -19,11 +20,11 @@ class QuoteCard {
               }
               .card {
                 font-family: Helvetica, sans-serif;
-                background-color: #${bgColor};
+                background-color: #${bg_color};
                 padding: 18px;
                 width: 500px;
                 height: 200px;
-                border: 2px solid #${borderColor};
+                border: 2px solid #${border_color};
                 border-radius: 12px;
                 display: flex;
                 flex-direction: column;
@@ -31,14 +32,14 @@ class QuoteCard {
               }
               .quote {
                 font-size: 1.2rem;
-                color: #${textColor};
+                color: #${quote_color};
                 padding: 0 1rem;
               }
               .quote::before,
               .quote::after {
                 display: block;
                 font-size: 2.4rem;
-                color: #${accentColor};
+                color: #${accent_color};
                 margin-bottom: -1rem;
               }
               .quote::before {
@@ -54,13 +55,13 @@ class QuoteCard {
               .author {
                 font-size: 0.8rem;
                 font-style: italic;
-                color: #${textColor};
+                color: #${author_color};
               }
               .author::before {
                 display: block;
                 content: '';
                 width: 1.5rem;
-                border-bottom: solid 3px #${accentColor};
+                border-bottom: solid 3px #${accent_color};
                 margin-bottom: 1rem;
               }
               .text-concat {
