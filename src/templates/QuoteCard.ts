@@ -31,38 +31,42 @@ class QuoteCard {
                 justify-content: space-around;
               }
               .quote {
-                font-size: 1.2rem;
+                font-size: 18px;
                 color: #${quote_color};
-                padding: 0 1rem;
+                padding: 0 16px;
+                line-height: 1.2;
               }
               .quote::before,
               .quote::after {
                 display: block;
-                font-size: 2.4rem;
+                font-size: 38px;
                 color: #${accent_color};
-                margin-bottom: -1rem;
+                margin-bottom: -20px;
               }
               .quote::before {
                 content: open-quote;
                 text-align: left;
-                transform: translateX(-1.2rem);
+                transform: translateX(-18px);
               }
               .quote::after {
                 content: close-quote;
                 text-align: right;
-                transform: translateX(1.2rem);
+                transform: translateX(18px);
               }
               .author {
-                font-size: 0.8rem;
+                font-size: 14px;
                 font-style: italic;
                 color: #${author_color};
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
               }
               .author::before {
                 display: block;
                 content: '';
-                width: 1.5rem;
+                width: 24px;
                 border-bottom: solid 3px #${accent_color};
-                margin-bottom: 1rem;
+                margin-bottom: 16px;
               }
               .text-concat {
                 display: -webkit-box;
