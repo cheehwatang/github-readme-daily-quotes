@@ -1,3 +1,5 @@
+import { themes } from '../themes/themes';
+
 type Theme = {
   textColor: string;
   bgColor: string;
@@ -6,12 +8,7 @@ type Theme = {
 };
 
 const setTheme = (): Theme => {
-  return {
-    textColor: 'c3d1d9',
-    bgColor: '0d1117',
-    accentColor: '58a6ff',
-    borderColor: 'c3d1d9',
-  };
+  return themes.default;
 };
 
 export { setTheme, Theme };
