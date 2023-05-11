@@ -34,7 +34,7 @@ class QuoteCard {
                 font-size: 18px;
                 color: #${quote_color};
                 padding: 0 16px;
-                line-height: 1.3;
+                line-height: 1.2;
               }
               .quote::before,
               .quote::after {
@@ -57,6 +57,9 @@ class QuoteCard {
                 font-size: 14px;
                 font-style: italic;
                 color: #${author_color};
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
               }
               .author::before {
                 display: block;
