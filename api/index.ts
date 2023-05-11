@@ -6,18 +6,19 @@ import { setTheme, Theme } from '../src/utils/setTheme';
 interface Query {
   quote: string;
   author: string;
+  theme: string;
 }
 
 const handler = async (request: VercelRequest, response: VercelResponse) => {
-  const { quote, author } = request.query as unknown as Query;
+  const { quote, author, theme } = request.query as unknown as Query;
 
-  const data: QuoteData = await setQuoteData({ quote, author });
+  const quoteData: QuoteData = await setQuoteData({ quote, author });
 
-  const theme: Theme = setTheme();
+  const themeData: Theme = setTheme(theme);
 
   response.setHeader('Content-Type', 'image/svg+xml');
   response.setHeader('Cache-Control', `public, max-age=300`);
-  response.send(renderQuoteCard(data, theme));
+  response.send(renderQuoteCard(quoteData, themeData));
 };
 
 export default handler;

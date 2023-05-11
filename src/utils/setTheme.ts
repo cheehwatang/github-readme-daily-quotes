@@ -7,8 +7,8 @@ type Theme = {
   borderColor: string;
 };
 
-const setTheme = (): Theme => {
-  return themes.default;
+const setTheme = (theme: string): Theme => {
+  return themes[theme] || themes.default;
 };
 
 export { setTheme, Theme };
