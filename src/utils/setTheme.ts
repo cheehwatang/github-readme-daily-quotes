@@ -9,8 +9,14 @@ type Theme = {
   border_color: string;
 };
 
-const setTheme = (theme: string): Theme => {
-  return themes[theme] || defaultTheme;
+const setTheme = (theme: string, customTheme: Theme): Theme => {
+  const themeData = themes[theme] || defaultTheme;
+
+  for (const key in customTheme) {
+    customTheme[key] ||= themeData[key];
+  }
+
+  return customTheme;
 };
 
 export { setTheme, Theme };

@@ -28,7 +28,13 @@ const handler = async (request: VercelRequest, response: VercelResponse) => {
 
   const quoteData: QuoteData = await setQuoteData({ quote, author });
 
-  const themeData: Theme = setTheme(theme);
+  const themeData: Theme = setTheme(theme, {
+    bg_color,
+    quote_color,
+    author_color,
+    accent_color,
+    border_color,
+  });
 
   response.setHeader('Content-Type', 'image/svg+xml');
   response.setHeader('Cache-Control', `public, max-age=300`);
