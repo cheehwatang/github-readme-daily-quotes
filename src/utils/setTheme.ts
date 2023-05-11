@@ -2,10 +2,10 @@ import { themes } from '../themes';
 import { defaultTheme } from '../config/defaults';
 
 type Theme = {
-  textColor: string;
-  bgColor: string;
-  accentColor: string;
-  borderColor: string;
+  text_color: string;
+  bg_color: string;
+  accent_color: string;
+  border_color: string;
 };
 
 const setTheme = (theme: string): Theme => {
