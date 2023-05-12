@@ -16,6 +16,10 @@ const fetchStoicismQuote = async (): Promise<QuoteData> => {
       quote = response.data as QuoteData;
     }
 
+    if (!quote.author) {
+      quote.author = 'Anonymous';
+    }
+
     return quote;
   } catch (error: unknown) {
     return fetchDefaultQuote();
