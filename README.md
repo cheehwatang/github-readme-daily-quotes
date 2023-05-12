@@ -3,7 +3,7 @@
   <p align="center">Inspiring Quotes on your Github Profile</p>
   </br>
   <a href="https://github.com/cheehwatang/github-readme-daily-quotes">
-    <img src="https://readme-daily-quotes.vercel.app/api" alt="Github Readme Daily Quotes">
+    <img src="https://readme-daily-quotes.vercel.app/api?font=trebuchet_ms" alt="Github Readme Daily Quotes">
   </a>
 </div>
 
@@ -18,6 +18,7 @@
   - [Customize Quotes](#customize-your-quotes)
 - [Themes](#themes)
   - [Color Customization](#color-customization)
+- [Fonts](#fonts)
 - [Deploy Yourself](#deploy-on-your-own)
   - [On Vercel](#on-vercel)
   - [Keep your fork up to date](#keep-your-fork-up-to-date)
@@ -38,16 +39,32 @@ Copy the markdown below and paste it in your Github Readme.
 
 ### Options Summary
 
-| Options      | Default     | Available                                                     |
-| ------------ | ----------- | ------------------------------------------------------------- |
-| theme        | github_dark | light, dark, radical, algolia                                 |
-| quote        | -           | Customize your quote                                          |
-| author       | -           | The name of the quote's author                                |
-| bg_color     | 0d1117      | Card's background color _(hex color)_                         |
-| quote_color  | 58a6ff      | Quote text color _(hex color)_                                |
-| author_color | c3d1d9      | Author text color _(hex color)_                               |
-| accent_color | 1f6feb      | Accent color for the quotation marks and spacer _(hex color)_ |
-| border_color | e4e2e2      | Card's border color _(hex color)_                             |
+You can customize your quote card using the options below.
+
+Use `OPTION=VALUE` parameter like so:
+
+```md
+![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?theme=light)
+```
+
+Append the options using the `&` symbol like so:
+
+```md
+![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?theme=light&category=programming)
+```
+
+| OPTION       | DEFAULT     | AVAILABLE                                                                             |
+| ------------ | ----------- | ------------------------------------------------------------------------------------- |
+| theme        | github_dark | light, dark, radical, algolia                                                         |
+| quote        | -           | Customize your quote                                                                  |
+| author       | -           | The name of the quote's author                                                        |
+| category     | -           | programming, stoicism                                                                 |
+| bg_color     | 0d1117      | Card's background color _(hex color)_                                                 |
+| quote_color  | 58a6ff      | Quote text color _(hex color)_                                                        |
+| author_color | c3d1d9      | Author text color _(hex color)_                                                       |
+| accent_color | 1f6feb      | Accent color for the quotation marks and spacer _(hex color)_                         |
+| border_color | e4e2e2      | Card's border color _(hex color)_                                                     |
+| font         | helvetica   | arial, verdana, tahoma, trebuchet_ms, times_new_roman, georgia, garamond, courier_new |
 
 </br>
 
@@ -105,12 +122,6 @@ Use `theme=THEME_NAME` parameter like so:
 ![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?theme=algolia)
 ```
 
-or use `&theme=THEME_NAME` parameter like so with other parameters:
-
-```md
-![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?category=programming&theme=algolia)
-```
-
 <details>
   <summary>
     <strong>🎨 All Available Inbuilt Themes</strong>
@@ -155,6 +166,63 @@ You can customize the appearance of your quote card as you wish with the URL par
 - `author_color` - Author text color _(hex color)_. Default: `c3d1d9`.
 - `accent_color` - Accent color for the quotation marks and spacer _(hex color)_. Default: `1f6feb`.
 - `border_color` - Card's border color _(hex color)_. Default: `e4e2e2`.
+
+</br>
+
+## Fonts
+
+You can customize the font of the text.
+
+Use `font=FONT_NAME` parameter like so:
+
+```md
+![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?font=garamond)
+```
+
+<details>
+  <summary>
+    <strong>✍️ All Available Inbuilt Fonts</strong>
+  </summary>
+
+  </br>
+
+### Default - Helvetica `?font=helvetica`
+
+[![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.)](https://github.com/cheehwatang/github-readme-daily-quotes)
+
+### Arial `?font=arial`
+
+[![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?font=arial&author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.)](https://github.com/cheehwatang/github-readme-daily-quotes)
+
+### Verdana `?font=verdana`
+
+[![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?font=verdana&author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.)](https://github.com/cheehwatang/github-readme-daily-quotes)
+
+### Tahoma `?font=tahoma`
+
+[![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?font=tahoma&author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.)](https://github.com/cheehwatang/github-readme-daily-quotes)
+
+### Trebuchet MS `?font=trebuchet_ms`
+
+[![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?font=trebuchet_ms&author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.)](https://github.com/cheehwatang/github-readme-daily-quotes)
+
+### Times New Roman `?font=times_new_roman`
+
+[![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?font=times_new_roman&author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.)](https://github.com/cheehwatang/github-readme-daily-quotes)
+
+### Georgia `?font=georgia`
+
+[![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?font=georgia&author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.)](https://github.com/cheehwatang/github-readme-daily-quotes)
+
+### Garamond `?font=garamond`
+
+[![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?font=garamond&author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.)](https://github.com/cheehwatang/github-readme-daily-quotes)
+
+### Courier New `?font=courier_new`
+
+[![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?font=courier_new&author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.)](https://github.com/cheehwatang/github-readme-daily-quotes)
+
+</details>
 
 </br>
 

@@ -2,7 +2,11 @@ import { QuoteData } from '../utils/setQuoteData';
 import { Theme } from '../utils/setTheme';
 
 class QuoteCard {
-  static build = (data: QuoteData, theme: Theme): string => {
+  static build = (
+    data: QuoteData,
+    theme: Theme,
+    fontFamily: string
+  ): string => {
     const { quote, author } = data;
 
     const { bg_color, quote_color, author_color, accent_color, border_color } =
@@ -19,7 +23,7 @@ class QuoteCard {
                 box-sizing: border-box;
               }
               .card {
-                font-family: Helvetica, sans-serif;
+                font-family: ${fontFamily};
                 background-color: #${bg_color};
                 padding: 18px;
                 width: 500px;
