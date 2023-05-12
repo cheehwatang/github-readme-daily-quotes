@@ -1,15 +1,15 @@
-<p align="center">
-  <h2 align="center">Daily Quotes Card</h2>
+<div align="center">
+  <h1 align="center">Daily Quotes Card</h1>
   <p align="center">Inspiring Quotes on your Github Profile</p>
-</p>
+  </br>
+  <a href="https://github.com/cheehwatang/github-readme-daily-quotes">
+    <img src="https://readme-daily-quotes.vercel.app/api" alt="Github Readme Daily Quotes">
+  </a>
+</div>
 
-<br/>
+</br>
 
-<hr/>
-
-<br/>
-
-# Features
+## Features
 
 - [Usage](#usage)
   - [Options Summary](#options-summary)
@@ -29,8 +29,10 @@
 Copy the markdown below and paste it in your Github Readme.
 
 ```md
-[![Gihub Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api)](https://github.com/cheehwatang/github-readme-daily-quotes)
+[![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api)](https://github.com/cheehwatang/github-readme-daily-quotes)
 ```
+
+[![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api)](https://github.com/cheehwatang/github-readme-daily-quotes)
 
 </br>
 
@@ -70,7 +72,7 @@ You can select the available category for the quote.
 Use `category=QUOTE_CATEGORY` parameter like so:
 
 ```md
-![Gihub Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?category=programming)
+![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?category=programming)
 ```
 
 > More category in-progress.
@@ -84,7 +86,7 @@ You can customize the quote and author.
 Use `quote=QUOTE` and `author=AUTHOR` parameter, and replace the spaces with `+`. like so:
 
 ```md
-![Gihub Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?author=Me&quote=My+quote)
+![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?author=Me&quote=My+quote)
 ```
 
 > Recommended to type the quote and the url in the browser, to reformat it, before copying the URL to render the image.
@@ -100,13 +102,13 @@ You can customize the look of the card without any [manual customization](#color
 Use `theme=THEME_NAME` parameter like so:
 
 ```md
-![Gihub Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?theme=algolia)
+![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?theme=algolia)
 ```
 
 or use `&theme=THEME_NAME` parameter like so with other parameters:
 
 ```md
-![Gihub Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?category=programming&theme=algolia)
+![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?category=programming&theme=algolia)
 ```
 
 <details>
