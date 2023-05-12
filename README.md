@@ -13,12 +13,28 @@
 
 - [General Daily Quotes](#general-daily-quotes)
 - [Quotes Based on Category](#quotes-based-on-category)
-- [Customize Quotes](#customize-quotes)
+- [Customize Quotes](#customize-your-quotes)
 - [Themes](#themes)
   - [Color Customization](#color-customization)
 - [Deploy Yourself](#deploy-on-your-own)
   - [On Vercel](#on-vercel)
   - [Keep your fork up to date](#keep-your-fork-up-to-date)
+
+</br>
+
+## Customize Your Quotes
+
+You can customize the quote and author.
+
+Use `quote=QUOTE` and `author=AUTHOR` parameter, and replace the spaces with `+`. like so:
+
+```md
+![Gihub Readme Daily Quote](https://readme-daily-quotes.vercel.app/api?author=Me&quote=My+quote)
+```
+
+> Recommended to type the quote and the url in the browser, to reformat it, before copying the URL to render the image.
+
+If only `quote` is added, the author defaults to `Anonymous`
 
 </br>
 
