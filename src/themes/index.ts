@@ -29,6 +29,13 @@ const themes: { [key: string]: Theme } = {
     accent_color: 'f8d847',
     border_color: 'e4e2e2',
   },
+  algolia: {
+    bg_color: '050f2c',
+    quote_color: '00aeff',
+    author_color: 'fff',
+    accent_color: '2dde98',
+    border_color: 'e4e2e2',
+  },
 };
 
 export { themes };
