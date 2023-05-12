@@ -15,6 +15,7 @@
 - [Quotes Based on Category](#quotes-based-on-category)
 - [Customize Quotes](#customize-quotes)
 - [Themes](#themes)
+  - [Color Customization](#color-customization)
 - [Deploy Yourself](#deploy-on-your-own)
   - [On Vercel](#on-vercel)
   - [Keep your fork up to date](#keep-your-fork-up-to-date)
@@ -23,7 +24,7 @@
 
 ## Themes
 
-You can customize the look of the card without any manual customization.
+You can customize the look of the card without any [manual customization](#color-customization).
 
 Use `theme=THEME_NAME` parameter like so:
 
@@ -65,6 +66,22 @@ or use `&theme=THEME_NAME` parameter like so with other parameters:
 [![Github Readme Daily Quote](https://readme-daily-quotes.vercel.app/api?theme=radical&author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.)](https://github.com/cheehwatang/github-readme-daily-quotes)
 
 </details>
+
+</br>
+
+### Color Customization
+
+You can customize the appearance of your quote card as you wish with the URL parameters.
+
+> If theme is applied, the specified color customization will override the set color theme.
+
+#### Customization Options
+
+- `bg_color` - Card's background color _(hex color)_. Default: `0d1117`.
+- `quote_color` - Quote text color _(hex color)_. Default: `58a6ff`.
+- `author_color` - Author text color _(hex color)_. Default: `c3d1d9`.
+- `accent_color` - Accent color for the quotation marks and spacer _(hex color)_. Default: `1f6feb`.
+- `border_color` - Card's border color _(hex color)_. Default: `e4e2e2`.
 
 </br>
 
