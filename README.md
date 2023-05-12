@@ -9,11 +9,11 @@
 
 <br/>
 
-## Features
+# Features
 
-- [General Daily Quotes](#general-daily-quotes)
-- [Quotes Based on Category](#quotes-from-category)
-- [Customize Quotes](#customize-your-quotes)
+- [Daily Quotes](#daily-quotes)
+  - [Quotes Based on Category](#quotes-from-category)
+  - [Customize Quotes](#customize-your-quotes)
 - [Themes](#themes)
   - [Color Customization](#color-customization)
 - [Deploy Yourself](#deploy-on-your-own)
@@ -22,7 +22,18 @@
 
 </br>
 
-## Quotes from Category
+## Daily Quotes
+
+By default, the quote card will display a general quote that will refresh once a day.
+
+For customization, you can:
+
+- [Select a category](#quotes-from-category)
+- [Customize your quote](#customize-your-quotes)
+
+</br>
+
+### Quotes from Category
 
 You can select the available category for the quote.
 
@@ -39,7 +50,7 @@ Use `category=QUOTE_CATEGORY` parameter like so:
 
 </br>
 
-## Customize Your Quotes
+### Customize Your Quotes
 
 You can customize the quote and author.
 
