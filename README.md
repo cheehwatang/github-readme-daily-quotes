@@ -38,11 +38,26 @@ Copy the markdown below and paste it in your Github Readme.
 
 ### Options Summary
 
-| Options      | Default     | Available                                                     |
+You can customize your quote card using the options below.
+
+Use `OPTION=VALUE` parameter like so:
+
+```md
+![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?theme=light)
+```
+
+Append the options using the `&` symbol like so:
+
+```md
+![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?theme=light&category=programming)
+```
+
+| OPTION       | DEFAULT     | AVAILABLE                                                     |
 | ------------ | ----------- | ------------------------------------------------------------- |
 | theme        | github_dark | light, dark, radical, algolia                                 |
 | quote        | -           | Customize your quote                                          |
 | author       | -           | The name of the quote's author                                |
+| category     | -           | programming, stoicism                                         |
 | bg_color     | 0d1117      | Card's background color _(hex color)_                         |
 | quote_color  | 58a6ff      | Quote text color _(hex color)_                                |
 | author_color | c3d1d9      | Author text color _(hex color)_                               |
