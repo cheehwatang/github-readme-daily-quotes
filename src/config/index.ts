@@ -1,6 +1,9 @@
 import { themes } from '../themes';
+import { fontFamilies } from '../fonts';
 
 const defaultTheme = themes.github_dark;
+
+const defaultFont = fontFamilies.helvetica;
 
 const CONSTANTS = {
   TEN_MINUTES: 600,
@@ -10,4 +13,4 @@ const CONSTANTS = {
   MAX_QUOTE_LENGTH: 140,
 };
 
-export { defaultTheme, CONSTANTS };
+export { defaultTheme, defaultFont, CONSTANTS };

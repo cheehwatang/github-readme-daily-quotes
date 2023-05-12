@@ -23,7 +23,7 @@ class QuoteCard {
                 box-sizing: border-box;
               }
               .card {
-                font-family: ${fontFamily}, sans-serif;
+                font-family: ${fontFamily};
                 background-color: #${bg_color};
                 padding: 18px;
                 width: 500px;
