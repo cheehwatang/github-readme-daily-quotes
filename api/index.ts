@@ -2,6 +2,7 @@ import type { VercelRequest, VercelResponse } from '@vercel/node';
 import { renderQuoteCard } from '../src/renderQuoteCard';
 import { setQuoteData, QuoteData } from '../src/utils/setQuoteData';
 import { setTheme, Theme } from '../src/utils/setTheme';
+import { CONSTANTS } from '../src/config';
 
 interface Query {
   quote: string;
@@ -14,13 +15,6 @@ interface Query {
   border_color: string;
   keyword: string;
 }
-
-const CONSTANTS = {
-  TEN_MINUTES: 600,
-  ONE_HOURS: 3600,
-  FOUR_HOURS: 14400,
-  ONE_DAY: 86400,
-};
 
 const handler = async (request: VercelRequest, response: VercelResponse) => {
   const {

@@ -1,5 +1,5 @@
 import { themes } from '../themes';
-import { defaultTheme } from '../config/defaults';
+import { defaultTheme } from '../config';
 
 type Theme = {
   bg_color: string;

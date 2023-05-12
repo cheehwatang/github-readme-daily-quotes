@@ -1,6 +1,7 @@
 import axios from 'axios';
 import { QuoteData } from '../utils/setQuoteData';
 import { fetchDefaultQuote } from './fetchDefaultQuote';
+import { CONSTANTS } from '../config';
 
 type ProgrammingQuote = {
   en: string;
@@ -13,7 +14,12 @@ const apiUrl =
 const fetchProgrammingQuote = async (): Promise<QuoteData> => {
   try {
     const response = await axios.get(apiUrl);
-    const quote = randomQuote(response.data as ProgrammingQuote[]);
+    const quoteArray = response.data as ProgrammingQuote[];
+
+    let quote = randomQuote(quoteArray);
+    while (quote.en.length > CONSTANTS.MAX_QUOTE_LENGTH) {
+      quote = randomQuote(quoteArray);
+    }
 
     return parseData(quote);
   } catch (error: unknown) {
