@@ -8,6 +8,13 @@ const themes: { [key: string]: Theme } = {
     accent_color: '4c71f2',
     border_color: 'e4e2e2',
   },
+  dark: {
+    bg_color: '151515',
+    quote_color: 'fff',
+    author_color: '9f9f9f',
+    accent_color: '79ff97',
+    border_color: 'e4e2e2',
+  },
   github_dark: {
     bg_color: '0d1117',
     quote_color: '58a6ff',
