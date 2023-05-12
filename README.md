@@ -19,6 +19,55 @@
   - [On Vercel](#on-vercel)
   - [Keep your fork up to date](#keep-your-fork-up-to-date)
 
+</br>
+
+## Themes
+
+You can customize the look of the card without any manual customization.
+
+Use `theme=THEME_NAME` parameter like so:
+
+```md
+![Gihub Readme Daily Quote](https://readme-daily-quotes.vercel.app/api?theme=algolia)
+```
+
+or use `&theme=THEME_NAME` parameter like so with other parameters:
+
+```md
+![Gihub Readme Daily Quote](https://readme-daily-quotes.vercel.app/api?category=programming&theme=algolia)
+```
+
+<details>
+  <summary>
+    <strong>🎨 All Available Inbuilt Themes</strong>
+  </summary>
+
+  </br>
+
+### Default - Github Dark `?theme=github_dark`
+
+[![Github Readme Daily Quote](https://readme-daily-quotes.vercel.app/api?author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.)](https://github.com/cheehwatang/github-readme-daily-quotes)
+
+### Light `?theme=light`
+
+[![Github Readme Daily Quote](https://readme-daily-quotes.vercel.app/api?theme=light&author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.)](https://github.com/cheehwatang/github-readme-daily-quotes)
+
+### Dark `?theme=dark`
+
+[![Github Readme Daily Quote](https://readme-daily-quotes.vercel.app/api?theme=dark&author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.)](https://github.com/cheehwatang/github-readme-daily-quotes)
+
+### Algolia `?theme=algolia`
+
+[![Github Readme Daily Quote](https://readme-daily-quotes.vercel.app/api?theme=algolia&author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.)](https://github.com/cheehwatang/github-readme-daily-quotes)
+
+### Radical `?theme=radical`
+
+[![Github Readme Daily Quote](https://readme-daily-quotes.vercel.app/api?theme=radical&author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.)](https://github.com/cheehwatang/github-readme-daily-quotes)
+
+</details>
+
+</br>
+
 ## Deploy On Your Own
 
 ### On Vercel
