@@ -3,7 +3,7 @@
   <p align="center">Inspiring Quotes on your Github Profile</p>
   </br>
   <a href="https://github.com/cheehwatang/github-readme-daily-quotes">
-    <img src="https://readme-daily-quotes.vercel.app/api" alt="Github Readme Daily Quotes">
+    <img src="https://readme-daily-quotes.vercel.app/api?font=trebuchet_ms" alt="Github Readme Daily Quotes">
   </a>
 </div>
 
@@ -120,12 +120,6 @@ Use `theme=THEME_NAME` parameter like so:
 
 ```md
 ![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?theme=algolia)
-```
-
-or use `&theme=THEME_NAME` parameter like so with other parameters:
-
-```md
-![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?category=programming&theme=algolia)
 ```
 
 <details>
