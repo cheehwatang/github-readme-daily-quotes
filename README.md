@@ -3,6 +3,22 @@
   <p align="center">Inspiring Quotes on your Github Profile</p>
 </p>
 
+<br/>
+
+<hr/>
+
+<br/>
+
+## Features
+
+- [General Daily Quotes](#general-daily-quotes)
+- [Quotes Based on Category](#quotes-based-on-category)
+- [Customize Quotes](#customize-quotes)
+- [Themes](#themes)
+- [Deploy Yourself](#deploy-on-your-own)
+  - [On Vercel](#on-vercel)
+  - [Keep your fork up to date](#keep-your-fork-up-to-date)
+
 ## 🌟 Special Thanks
 
 <blockquote>
