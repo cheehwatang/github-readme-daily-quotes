@@ -22,6 +22,13 @@ const themes: { [key: string]: Theme } = {
     accent_color: '1f6feb',
     border_color: 'e4e2e2',
   },
+  radical: {
+    bg_color: '141321',
+    quote_color: 'fe428e',
+    author_color: 'a9fef7',
+    accent_color: 'f8d847',
+    border_color: 'e4e2e2',
+  },
 };
 
 export { themes };
