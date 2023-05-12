@@ -9,10 +9,10 @@ type QuoteData = {
 
 const setQuoteData = async (
   data: QuoteData,
-  keyword: string
+  category: string
 ): Promise<QuoteData> => {
-  // If keyword is provided, call the respective service for quote data.
-  switch (keyword) {
+  // If category is provided, call the respective service for quote data.
+  switch (category) {
     case 'stoicism': {
       return await fetchStoicismQuote();
     }
@@ -21,7 +21,7 @@ const setQuoteData = async (
     }
   }
 
-  // If no keyword is provided, then get customized quote or daily quote.
+  // If no category is provided, then get customized quote or daily quote.
   const { quote, author } = data;
 
   if (!quote) {
