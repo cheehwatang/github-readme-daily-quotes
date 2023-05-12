@@ -13,7 +13,7 @@ interface Query {
   author_color: string;
   accent_color: string;
   border_color: string;
-  keyword: string;
+  category: string;
 }
 
 const handler = async (request: VercelRequest, response: VercelResponse) => {
@@ -26,10 +26,10 @@ const handler = async (request: VercelRequest, response: VercelResponse) => {
     author_color,
     accent_color,
     border_color,
-    keyword,
+    category,
   } = request.query as unknown as Query;
 
-  const quoteData: QuoteData = await setQuoteData({ quote, author }, keyword);
+  const quoteData: QuoteData = await setQuoteData({ quote, author }, category);
 
   const themeData: Theme = setTheme(theme, {
     bg_color,
