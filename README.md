@@ -19,6 +19,38 @@
   - [On Vercel](#on-vercel)
   - [Keep your fork up to date](#keep-your-fork-up-to-date)
 
+## Deploy On Your Own
+
+### On Vercel
+
+Click on the deploy button to get started!
+
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/cheehwatang/github-readme-daily-quotes)
+
+<details>
+  <summary>
+    <strong>🛠️ Step-by-step guide on setting up your own Vercel instance</strong>
+  </summary>
+
+1.  Go to [vercel.com/login](https://vercel.com/login).
+2.  Sign in with GitHub by pressing `Continue with GitHub`.
+    ![Vercel Login Page](https://res.cloudinary.com/dsx50recn/image/upload/v1683881307/Github%20Readme%20Daily%20Quotes/Vercel_Login_pupkez.png)
+3.  Sign in to GitHub and allow access to all repositories if prompted.
+4.  Fork this repo.
+5.  Go back to your [Vercel new project page](https://vercel.com/new).
+6.  Click the `Continue with GitHub` button, search for the required Git Repository and import it by clicking the `Import` button. Alternatively, you can import a Third-Party Git Repository using the `Import Third-Party Git Repository ->` link at the bottom of the page.
+    ![Vercel New Project Page](https://res.cloudinary.com/dsx50recn/image/upload/v1683881309/Github%20Readme%20Daily%20Quotes/Import_Github_Repo_n71zr8.png)
+7.  Click deploy, and you're good to go.
+8.  To access the api, visit `https://[YOUR DOMAIN]/api`
+
+</details>
+
+### Keep your fork up to date
+
+You can keep your fork, and thus your private Vercel instance up to date with the upstream using GitHubs' [Sync Fork button](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork). You can also use the [pull](https://github.com/wei/pull) package created by [@wei](https://github.com/wei) to automate this process.
+
+</br>
+
 ## 🌟 Special Thanks
 
 <blockquote>
