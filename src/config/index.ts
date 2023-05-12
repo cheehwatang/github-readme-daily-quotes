@@ -2,4 +2,11 @@ import { themes } from '../themes';
 
 const defaultTheme = themes.github_dark;
 
-export { defaultTheme };
+const CONSTANTS = {
+  TEN_MINUTES: 600,
+  ONE_HOURS: 3600,
+  FOUR_HOURS: 14400,
+  ONE_DAY: 86400,
+};
+
+export { defaultTheme, CONSTANTS };
