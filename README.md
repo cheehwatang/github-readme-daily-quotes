@@ -1,5 +1,7 @@
 <div align="center">
-  <img width="100" height="100" src="assets/logo.svg" />
+  <a href="https://github.com/cheehwatang/github-readme-daily-quotes">
+    <img width="100" height="100" src="assets/logo.svg" />
+  </a>
   </br>
   <h1 align="center">Daily Quotes Card</h1>
   <p align="center">Inspiring Quotes on your Github Profile</p>
