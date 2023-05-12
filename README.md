@@ -12,13 +12,30 @@
 ## Features
 
 - [General Daily Quotes](#general-daily-quotes)
-- [Quotes Based on Category](#quotes-based-on-category)
+- [Quotes Based on Category](#quotes-from-category)
 - [Customize Quotes](#customize-your-quotes)
 - [Themes](#themes)
   - [Color Customization](#color-customization)
 - [Deploy Yourself](#deploy-on-your-own)
   - [On Vercel](#on-vercel)
   - [Keep your fork up to date](#keep-your-fork-up-to-date)
+
+</br>
+
+## Quotes from Category
+
+You can select the available category for the quote.
+
+- Programming
+- Stoicism
+
+Use `category=QUOTE_CATEGORY` parameter like so:
+
+```md
+![Gihub Readme Daily Quote](https://readme-daily-quotes.vercel.app/api?category=programming)
+```
+
+> More category in-progress.
 
 </br>
 
