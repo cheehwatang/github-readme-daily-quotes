@@ -11,6 +11,8 @@
 
 # Features
 
+- [Usage](#usage)
+  - [Options Summary](#options-summary)
 - [Daily Quotes](#daily-quotes)
   - [Quotes Based on Category](#quotes-from-category)
   - [Customize Quotes](#customize-your-quotes)
@@ -19,6 +21,31 @@
 - [Deploy Yourself](#deploy-on-your-own)
   - [On Vercel](#on-vercel)
   - [Keep your fork up to date](#keep-your-fork-up-to-date)
+
+</br>
+
+## Usage
+
+Copy the markdown below and paste it in your Github Readme.
+
+```md
+[![Gihub Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api)](https://github.com/cheehwatang/github-readme-daily-quotes)
+```
+
+</br>
+
+### Options Summary
+
+| Options      | Default     | Available                                                     |
+| ------------ | ----------- | ------------------------------------------------------------- |
+| theme        | github_dark | light, dark, radical, algolia                                 |
+| quote        | -           | Customize your quote                                          |
+| author       | -           | The name of the quote's author                                |
+| bg_color     | 0d1117      | Card's background color _(hex color)_                         |
+| quote_color  | 58a6ff      | Quote text color _(hex color)_                                |
+| author_color | c3d1d9      | Author text color _(hex color)_                               |
+| accent_color | 1f6feb      | Accent color for the quotation marks and spacer _(hex color)_ |
+| border_color | e4e2e2      | Card's border color _(hex color)_                             |
 
 </br>
 
@@ -43,7 +70,7 @@ You can select the available category for the quote.
 Use `category=QUOTE_CATEGORY` parameter like so:
 
 ```md
-![Gihub Readme Daily Quote](https://readme-daily-quotes.vercel.app/api?category=programming)
+![Gihub Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?category=programming)
 ```
 
 > More category in-progress.
@@ -57,7 +84,7 @@ You can customize the quote and author.
 Use `quote=QUOTE` and `author=AUTHOR` parameter, and replace the spaces with `+`. like so:
 
 ```md
-![Gihub Readme Daily Quote](https://readme-daily-quotes.vercel.app/api?author=Me&quote=My+quote)
+![Gihub Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?author=Me&quote=My+quote)
 ```
 
 > Recommended to type the quote and the url in the browser, to reformat it, before copying the URL to render the image.
@@ -73,13 +100,13 @@ You can customize the look of the card without any [manual customization](#color
 Use `theme=THEME_NAME` parameter like so:
 
 ```md
-![Gihub Readme Daily Quote](https://readme-daily-quotes.vercel.app/api?theme=algolia)
+![Gihub Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?theme=algolia)
 ```
 
 or use `&theme=THEME_NAME` parameter like so with other parameters:
 
 ```md
-![Gihub Readme Daily Quote](https://readme-daily-quotes.vercel.app/api?category=programming&theme=algolia)
+![Gihub Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?category=programming&theme=algolia)
 ```
 
 <details>
@@ -91,23 +118,23 @@ or use `&theme=THEME_NAME` parameter like so with other parameters:
 
 ### Default - Github Dark `?theme=github_dark`
 
-[![Github Readme Daily Quote](https://readme-daily-quotes.vercel.app/api?author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.)](https://github.com/cheehwatang/github-readme-daily-quotes)
+[![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.)](https://github.com/cheehwatang/github-readme-daily-quotes)
 
 ### Light `?theme=light`
 
-[![Github Readme Daily Quote](https://readme-daily-quotes.vercel.app/api?theme=light&author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.)](https://github.com/cheehwatang/github-readme-daily-quotes)
+[![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?theme=light&author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.)](https://github.com/cheehwatang/github-readme-daily-quotes)
 
 ### Dark `?theme=dark`
 
-[![Github Readme Daily Quote](https://readme-daily-quotes.vercel.app/api?theme=dark&author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.)](https://github.com/cheehwatang/github-readme-daily-quotes)
+[![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?theme=dark&author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.)](https://github.com/cheehwatang/github-readme-daily-quotes)
 
 ### Algolia `?theme=algolia`
 
-[![Github Readme Daily Quote](https://readme-daily-quotes.vercel.app/api?theme=algolia&author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.)](https://github.com/cheehwatang/github-readme-daily-quotes)
+[![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?theme=algolia&author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.)](https://github.com/cheehwatang/github-readme-daily-quotes)
 
 ### Radical `?theme=radical`
 
-[![Github Readme Daily Quote](https://readme-daily-quotes.vercel.app/api?theme=radical&author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.)](https://github.com/cheehwatang/github-readme-daily-quotes)
+[![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?theme=radical&author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.)](https://github.com/cheehwatang/github-readme-daily-quotes)
 
 </details>
 
