@@ -127,6 +127,13 @@ const themes: { [key: string]: Theme } = {
     accent_color: 'ff3860',
     border_color: 'e4e2e2',
   },
+  nord: {
+    bg_color: '2e3440',
+    quote_color: '81a1c1',
+    author_color: 'd8dee9',
+    accent_color: '88c0d0',
+    border_color: 'e4e2e2',
+  },
 };
 
 export { themes };
