@@ -12,45 +12,45 @@ Use `font=FONT_NAME` parameter like so:
 
 ### Sans Serif Fonts
 
-|                                               |                                     |
-| :-------------------------------------------: | :---------------------------------: |
-| `helvetica (default)` ![helvetica][helvetica] |       `arial` ![arial][arial]       |
-|         `verdana` ![verdana][verdana]         |     `tahoma` ![tahoma][tahoma]      |
-| `trebuchet_ms` ![trebuchet_ms][trebuchet_ms]  | `open_sans` ![open_sans][open_sans] |
-|          `delius` ![delius][delius]           |                                     |
+|                                                     |                                           |
+| :-------------------------------------------------: | :---------------------------------------: |
+| `helvetica (default)` </br> ![helvetica][helvetica] |       `arial` </br> ![arial][arial]       |
+|         `verdana` </br> ![verdana][verdana]         |     `tahoma` </br> ![tahoma][tahoma]      |
+| `trebuchet_ms` </br> ![trebuchet_ms][trebuchet_ms]  | `open_sans` </br> ![open_sans][open_sans] |
+|          `delius` </br> ![delius][delius]           |                                           |
 
 </br>
 
 ### Serif Fonts
 
-|                                                       |                                                             |
-| :---------------------------------------------------: | :---------------------------------------------------------: |
-| `times_new_roman` ![times_new_roman][times_new_roman] |                `georgia` ![georgia][georgia]                |
-|           `garamond` ![garamond][garamond]            | `libre_baskerville` ![libre_baskerville][libre_baskerville] |
+|                                                             |                                                                   |
+| :---------------------------------------------------------: | :---------------------------------------------------------------: |
+| `times_new_roman` </br> ![times_new_roman][times_new_roman] |                `georgia` </br> ![georgia][georgia]                |
+|           `garamond` </br> ![garamond][garamond]            | `libre_baskerville` </br> ![libre_baskerville][libre_baskerville] |
 
 </br>
 
 ### Monospace Fonts
 
-|                                           |     |
-| :---------------------------------------: | :-: |
-| `courier_new` ![courier_new][courier_new] |     |
+|                                                 |     |
+| :---------------------------------------------: | :-: |
+| `courier_new` </br> ![courier_new][courier_new] |     |
 
 </br>
 
 ### Cursive Fonts
 
-|                                  |                         |
-| :------------------------------: | :---------------------: |
-| `merienda` ![merienda][merienda] | `sofia` ![sofia][sofia] |
+|                                        |                               |
+| :------------------------------------: | :---------------------------: |
+| `merienda` </br> ![merienda][merienda] | `sofia` </br> ![sofia][sofia] |
 
 </br>
 
 ### Fantasy & Display Fonts
 
-|                                                    |     |
-| :------------------------------------------------: | :-: |
-| `medieval_sharp` ![medieval_sharp][medieval_sharp] |     |
+|                                                          |     |
+| :------------------------------------------------------: | :-: |
+| `medieval_sharp` </br> ![medieval_sharp][medieval_sharp] |     |
 
 <!-- Sans Serif Fonts -->
 
