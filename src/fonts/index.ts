@@ -1,21 +1,22 @@
 import { FontData } from '../utils/setFont';
-import { helvetica } from './helvetica';
-import { arial } from './arial';
-import { verdana } from './verdana';
-import { tahoma } from './tahoma';
-import { trebuchet_ms } from './trebuchet_ms';
-import { delius } from './delius';
-import { open_sans } from './open_sans';
-import { times_new_roman } from './times_new_roman';
-import { georgia } from './georgia';
-import { garamond } from './garamond';
-import { libre_baskerville } from './libre_baskerville';
-import { courier_new } from './courier_new';
-import { merienda } from './merienda';
-import { sofia } from './sofia';
-import { medieval_sharp } from './medieval_sharp';
+import { helvetica } from './woff/helvetica';
+import { arial } from './woff/arial';
+import { verdana } from './woff/verdana';
+import { tahoma } from './woff/tahoma';
+import { trebuchet_ms } from './woff/trebuchet_ms';
+import { delius } from './woff/delius';
+import { open_sans } from './woff/open_sans';
+import { times_new_roman } from './woff/times_new_roman';
+import { georgia } from './woff/georgia';
+import { garamond } from './woff/garamond';
+import { libre_baskerville } from './woff/libre_baskerville';
+import { courier_new } from './woff/courier_new';
+import { merienda } from './woff/merienda';
+import { sofia } from './woff/sofia';
+import { medieval_sharp } from './woff/medieval_sharp';
 
 const fontFamilies: { [key: string]: FontData } = {
+  // San Serif fonts (fallback: san-serif)
   helvetica: {
     name: 'Helvetica',
     family: 'Helvetica, sans-serif',
@@ -51,6 +52,7 @@ const fontFamilies: { [key: string]: FontData } = {
     family: "'Open Sans', sans-serif",
     woff: open_sans,
   },
+  // Serif fonts (fallback: serif)
   times_new_roman: {
     name: 'Times New Roman',
     family: "'Times New Roman', serif",
@@ -71,11 +73,13 @@ const fontFamilies: { [key: string]: FontData } = {
     family: "'Libre Baskerville', serif",
     woff: libre_baskerville,
   },
+  // Monospace fonts (fallback: monospace)
   courier_new: {
     name: 'Courier New',
     family: "'Courier New', monospace",
     woff: courier_new,
   },
+  // Cursive fonts (fallback: cursive)
   merienda: {
     name: 'Merienda',
     family: 'Merienda, cursive',
@@ -86,6 +90,7 @@ const fontFamilies: { [key: string]: FontData } = {
     family: 'Sofia, cursive',
     woff: sofia,
   },
+  // Fantasy and Display fonts (fallback: fantasy)
   medieval_sharp: {
     name: 'MedievalSharp',
     family: 'MedievalSharp, fantasy',
