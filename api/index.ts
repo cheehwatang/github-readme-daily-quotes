@@ -2,7 +2,7 @@ import type { VercelRequest, VercelResponse } from '@vercel/node';
 import { renderQuoteCard } from '../src/renderQuoteCard';
 import { setQuoteData, QuoteData } from '../src/utils/setQuoteData';
 import { setTheme, Theme } from '../src/utils/setTheme';
-import { setFont } from '../src/utils/setFont';
+import { setFont, FontData } from '../src/utils/setFont';
 import { CONSTANTS } from '../src/config';
 
 interface Query {
@@ -42,14 +42,14 @@ const handler = async (request: VercelRequest, response: VercelResponse) => {
     border_color,
   });
 
-  const fontFamily = setFont(font);
+  const fontData: FontData = setFont(font);
 
   response.setHeader('Content-Type', 'image/svg+xml');
   response.setHeader(
     'Cache-Control',
     `public, max-age=${CONSTANTS.TEN_MINUTES}, s-maxage=${CONSTANTS.FOUR_HOURS}, stale-while-revalidate=${CONSTANTS.ONE_DAY}`
   );
-  response.send(renderQuoteCard(quoteData, themeData, fontFamily));
+  response.send(renderQuoteCard(quoteData, themeData, fontData));
 };
 
 export default handler;
