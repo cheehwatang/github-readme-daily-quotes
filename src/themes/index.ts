@@ -57,6 +57,13 @@ const themes: { [key: string]: Theme } = {
     accent_color: 'fe8019',
     border_color: 'e4e2e2',
   },
+  tokyonight: {
+    bg_color: '1a1b27',
+    quote_color: '70a5fd',
+    author_color: '38bdae',
+    accent_color: 'bf91f3',
+    border_color: 'e4e2e2',
+  },
 };
 
 export { themes };
