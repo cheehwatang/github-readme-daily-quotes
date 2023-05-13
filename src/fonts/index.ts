@@ -9,6 +9,7 @@ import { open_sans } from './open_sans';
 import { times_new_roman } from './times_new_roman';
 import { georgia } from './georgia';
 import { garamond } from './garamond';
+import { libre_baskerville } from './libre_baskerville';
 import { courier_new } from './courier_new';
 import { merienda } from './merienda';
 import { sofia } from './sofia';
@@ -63,6 +64,11 @@ const fontFamilies: { [key: string]: FontData } = {
     name: 'Garamond',
     family: 'Garamond, serif',
     woff: garamond,
+  },
+  libre_baskerville: {
+    name: 'Libre Baskerville',
+    family: "'Libre Baskerville', serif",
+    woff: libre_baskerville,
   },
   courier_new: {
     name: 'Courier New',
