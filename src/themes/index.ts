@@ -78,6 +78,13 @@ const themes: { [key: string]: Theme } = {
     accent_color: '0480ef',
     border_color: 'e4e2e2',
   },
+  synthwave: {
+    bg_color: '2b213a',
+    quote_color: 'e2e9ec',
+    author_color: 'e5289e',
+    accent_color: 'ef8539',
+    border_color: 'e4e2e2',
+  },
 };
 
 export { themes };
