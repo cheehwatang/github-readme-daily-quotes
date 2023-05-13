@@ -42,9 +42,9 @@ class QuoteCard {
               .quote::before,
               .quote::after {
                 display: block;
-                font-size: 50px;
+                font-size: 44px;
                 color: #${accent_color};
-                margin-bottom: -34px;
+                margin-bottom: -26px;
               }
               .quote::before {
                 content: open-quote;
