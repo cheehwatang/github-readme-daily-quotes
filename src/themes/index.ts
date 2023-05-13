@@ -134,6 +134,13 @@ const themes: { [key: string]: Theme } = {
     accent_color: '88c0d0',
     border_color: 'e4e2e2',
   },
+  graywhite: {
+    bg_color: 'fff',
+    quote_color: '24292e',
+    author_color: '24292e',
+    accent_color: '24292e',
+    border_color: 'e4e2e2',
+  },
 };
 
 export { themes };
