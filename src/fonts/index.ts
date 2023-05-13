@@ -3,6 +3,7 @@ import { helvetica } from './helvetica';
 import { arial } from './arial';
 import { verdana } from './verdana';
 import { tahoma } from './tahoma';
+import { trebuchet_ms } from './trebuchet_ms';
 import { delius } from './delius';
 
 // const fontFamilies: { [key: string]: string } = {
@@ -38,6 +39,11 @@ const fontFamilies: { [key: string]: FontData } = {
     name: 'Tahoma',
     family: 'Tahoma, sans-serif',
     woff: tahoma,
+  },
+  trebuchet_ms: {
+    name: 'Trebuchet MS',
+    family: "'Trebuchet MS', sans-serif",
+    woff: trebuchet_ms,
   },
   delius: {
     name: 'Delius',
