@@ -189,6 +189,8 @@ Daily Quotes comes with the common fonts (e.g. `helvetica`, `arial`, `verdana`, 
 
 You can look at a preview for [all available fonts](./src/fonts/README.md).
 
+> Consideration: Readability and Accessibility (especially for cursive fonts).
+
 Below are some of my personal recommendations:
 
 ### Trebuchet MS `font=trebuchet_ms`

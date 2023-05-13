@@ -8,6 +8,8 @@ Use `font=FONT_NAME` parameter like so:
 ![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?font=garamond)
 ```
 
+> Consideration: Readability and Accessibility (especially for cursive fonts).
+
 </br>
 
 ### Sans Serif Fonts
