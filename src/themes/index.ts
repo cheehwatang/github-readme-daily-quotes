@@ -106,6 +106,13 @@ const themes: { [key: string]: Theme } = {
     accent_color: '38a0ff',
     border_color: 'e4e2e2',
   },
+  monokai: {
+    bg_color: '272822',
+    quote_color: 'eb1f6a',
+    author_color: 'f1f1eb',
+    accent_color: 'e28905',
+    border_color: 'e4e2e2',
+  },
 };
 
 export { themes };
