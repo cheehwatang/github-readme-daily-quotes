@@ -5,6 +5,7 @@ import { verdana } from './verdana';
 import { tahoma } from './tahoma';
 import { trebuchet_ms } from './trebuchet_ms';
 import { times_new_roman } from './times_new_roman';
+import { georgia } from './georgia';
 import { delius } from './delius';
 
 // const fontFamilies: { [key: string]: string } = {
@@ -50,6 +51,11 @@ const fontFamilies: { [key: string]: FontData } = {
     name: 'Times New Roman',
     family: "'Times New Roman', serif",
     woff: times_new_roman,
+  },
+  georgia: {
+    name: 'Georgia',
+    family: 'Georgia, serif',
+    woff: georgia,
   },
   delius: {
     name: 'Delius',
