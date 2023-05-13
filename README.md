@@ -59,7 +59,7 @@ Append the options using the `&` symbol like so:
 
 | OPTION       |   DEFAULT   | AVAILABLE                                                     |
 | ------------ | :---------: | ------------------------------------------------------------- |
-| theme        | github_dark | light, dark, radical, algolia                                 |
+| theme        | github_dark | [All available themes](./src/themes/README.md)                |
 | quote        |      -      | Customize your quote                                          |
 | author       |      -      | The name of the quote's author                                |
 | category     |      -      | programming, stoicism                                         |
@@ -126,34 +126,39 @@ Use `theme=THEME_NAME` parameter like so:
 ![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?theme=algolia)
 ```
 
-<details>
-  <summary>
-    <strong>🎨 All Available Inbuilt Themes</strong>
-  </summary>
+### 🎨 All Available Inbuilt Themes
 
-  </br>
+Daily Quotes comes with the inbuilt themes (e.g. `light`, `dark`, `vue`, `algolia`, `nord`, `radial`, `dracula`, `monokai`).
 
-### Default - Github Dark `?theme=github_dark`
+You can look at a preview for [all available themes](./src/themes/README.md).
+
+> Consideration: Accessibility with Good Contrast Colors.
+
+Below are some of my personal recommendations:
+
+#### Github Dark (Default) `theme=github_dark`
 
 [![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.)](https://github.com/cheehwatang/github-readme-daily-quotes)
 
-### Light `?theme=light`
+#### Light `theme=light`
 
 [![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?theme=light&author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.)](https://github.com/cheehwatang/github-readme-daily-quotes)
 
-### Dark `?theme=dark`
+#### Dark `theme=dark`
 
 [![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?theme=dark&author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.)](https://github.com/cheehwatang/github-readme-daily-quotes)
 
-### Algolia `?theme=algolia`
+#### Vue `theme=vue`
+
+[![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?theme=vue&author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.)](https://github.com/cheehwatang/github-readme-daily-quotes)
+
+#### Algolia `theme=algolia`
 
 [![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?theme=algolia&author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.)](https://github.com/cheehwatang/github-readme-daily-quotes)
 
-### Radical `?theme=radical`
+#### Radical `theme=radical`
 
 [![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?theme=radical&author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.)](https://github.com/cheehwatang/github-readme-daily-quotes)
-
-</details>
 
 </br>
 
@@ -193,23 +198,23 @@ You can look at a preview for [all available fonts](./src/fonts/README.md).
 
 Below are some of my personal recommendations:
 
-### Trebuchet MS `font=trebuchet_ms`
+#### Trebuchet MS (Default) `font=trebuchet_ms`
 
 [![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?font=trebuchet_ms&author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.)](https://github.com/cheehwatang/github-readme-daily-quotes)
 
-### Delius `font=delius`
+#### Delius `font=delius`
 
 [![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?font=delius&author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.)](https://github.com/cheehwatang/github-readme-daily-quotes)
 
-### Libre Baskerville `font=libre_baskerville`
+#### Libre Baskerville `font=libre_baskerville`
 
 [![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?font=libre_baskerville&author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.)](https://github.com/cheehwatang/github-readme-daily-quotes)
 
-### Merienda `font=merienda`
+#### Merienda `font=merienda`
 
 [![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?font=merienda&author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.)](https://github.com/cheehwatang/github-readme-daily-quotes)
 
-### MedievalSharp `font=medieval_sharp`
+#### MedievalSharp `font=medieval_sharp`
 
 [![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?font=medieval_sharp&author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.)](https://github.com/cheehwatang/github-readme-daily-quotes)
 
