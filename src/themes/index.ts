@@ -113,6 +113,20 @@ const themes: { [key: string]: Theme } = {
     accent_color: 'e28905',
     border_color: 'e4e2e2',
   },
+  vue: {
+    bg_color: 'fffefe',
+    quote_color: '41b883',
+    author_color: '273849',
+    accent_color: '41b883',
+    border_color: 'e4e2e2',
+  },
+  buefy: {
+    bg_color: 'fff',
+    quote_color: '7957d5',
+    author_color: '363636',
+    accent_color: 'ff3860',
+    border_color: 'e4e2e2',
+  },
 };
 
 export { themes };
