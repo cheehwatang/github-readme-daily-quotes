@@ -1,6 +1,7 @@
 import { FontData } from '../utils/setFont';
 import { helvetica } from './helvetica';
 import { arial } from './arial';
+import { verdana } from './verdana';
 import { delius } from './delius';
 
 // const fontFamilies: { [key: string]: string } = {
@@ -26,6 +27,11 @@ const fontFamilies: { [key: string]: FontData } = {
     name: 'Arial',
     family: 'Arial, sans-serif',
     woff: arial,
+  },
+  verdana: {
+    name: 'Verdana',
+    family: 'Verdana, sans-serif',
+    woff: verdana,
   },
   delius: {
     name: 'Delius',
