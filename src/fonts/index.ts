@@ -16,6 +16,7 @@ import { sofia } from './sofia';
 import { medieval_sharp } from './medieval_sharp';
 
 const fontFamilies: { [key: string]: FontData } = {
+  // San Serif fonts (fallback: san-serif)
   helvetica: {
     name: 'Helvetica',
     family: 'Helvetica, sans-serif',
@@ -51,6 +52,7 @@ const fontFamilies: { [key: string]: FontData } = {
     family: "'Open Sans', sans-serif",
     woff: open_sans,
   },
+  // Serif fonts (fallback: serif)
   times_new_roman: {
     name: 'Times New Roman',
     family: "'Times New Roman', serif",
@@ -71,11 +73,13 @@ const fontFamilies: { [key: string]: FontData } = {
     family: "'Libre Baskerville', serif",
     woff: libre_baskerville,
   },
+  // Monospace fonts (fallback: monospace)
   courier_new: {
     name: 'Courier New',
     family: "'Courier New', monospace",
     woff: courier_new,
   },
+  // Cursive fonts (fallback: cursive)
   merienda: {
     name: 'Merienda',
     family: 'Merienda, cursive',
@@ -86,6 +90,7 @@ const fontFamilies: { [key: string]: FontData } = {
     family: 'Sofia, cursive',
     woff: sofia,
   },
+  // Fantasy and Display fonts (fallback: fantasy)
   medieval_sharp: {
     name: 'MedievalSharp',
     family: 'MedievalSharp, fantasy',
