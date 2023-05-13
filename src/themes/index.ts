@@ -50,6 +50,13 @@ const themes: { [key: string]: Theme } = {
     accent_color: 'b7d364',
     border_color: 'e4e2e2',
   },
+  gruvbox: {
+    bg_color: '282828',
+    quote_color: 'fabd2f',
+    author_color: '8ec07c',
+    accent_color: 'fe8019',
+    border_color: 'e4e2e2',
+  },
 };
 
 export { themes };
