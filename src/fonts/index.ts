@@ -6,6 +6,7 @@ import { tahoma } from './tahoma';
 import { trebuchet_ms } from './trebuchet_ms';
 import { times_new_roman } from './times_new_roman';
 import { georgia } from './georgia';
+import { garamond } from './garamond';
 import { delius } from './delius';
 
 // const fontFamilies: { [key: string]: string } = {
@@ -56,6 +57,11 @@ const fontFamilies: { [key: string]: FontData } = {
     name: 'Georgia',
     family: 'Georgia, serif',
     woff: georgia,
+  },
+  garamond: {
+    name: 'Garamond',
+    family: 'Garamond, serif',
+    woff: garamond,
   },
   delius: {
     name: 'Delius',
