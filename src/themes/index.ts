@@ -64,6 +64,13 @@ const themes: { [key: string]: Theme } = {
     accent_color: 'bf91f3',
     border_color: 'e4e2e2',
   },
+  onedark: {
+    bg_color: '282c34',
+    quote_color: 'e4bf7a',
+    author_color: 'df6d74',
+    accent_color: '8eb573',
+    border_color: 'e4e2e2',
+  },
 };
 
 export { themes };
