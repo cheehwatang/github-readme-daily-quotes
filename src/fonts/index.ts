@@ -13,6 +13,7 @@ import { libre_baskerville } from './libre_baskerville';
 import { courier_new } from './courier_new';
 import { merienda } from './merienda';
 import { sofia } from './sofia';
+import { medieval_sharp } from './medieval_sharp';
 
 const fontFamilies: { [key: string]: FontData } = {
   helvetica: {
@@ -84,6 +85,11 @@ const fontFamilies: { [key: string]: FontData } = {
     name: 'Sofia',
     family: 'Sofia, cursive',
     woff: sofia,
+  },
+  medieval_sharp: {
+    name: 'MedievalSharp',
+    family: 'MedievalSharp, fantasy',
+    woff: medieval_sharp,
   },
 };
 
