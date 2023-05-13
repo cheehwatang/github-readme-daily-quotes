@@ -85,6 +85,13 @@ const themes: { [key: string]: Theme } = {
     accent_color: 'ef8539',
     border_color: 'e4e2e2',
   },
+  highcontrast: {
+    bg_color: '000',
+    quote_color: 'e7f216',
+    author_color: 'fff',
+    accent_color: '00ffff',
+    border_color: 'e4e2e2',
+  },
 };
 
 export { themes };
