@@ -1,5 +1,6 @@
 import { FontData } from '../utils/setFont';
 import { delius } from './delius';
+import { arial } from './arial';
 
 // const fontFamilies: { [key: string]: string } = {
 //   helvetica: 'Helvetica, sans-serif',
@@ -15,6 +16,11 @@ import { delius } from './delius';
 // };
 
 const fontFamilies: { [key: string]: FontData } = {
+  arial: {
+    name: 'Arial',
+    family: 'Arial, sans-serif',
+    woff: arial,
+  },
   delius: {
     name: 'Delius',
     family: 'Delius, Helvetica, sans-serif',
