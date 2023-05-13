@@ -1,12 +1,10 @@
 import { QuoteData } from '../utils/setQuoteData';
 import { Theme } from '../utils/setTheme';
+import { FontData } from '../utils/setFont';
+import { FontDefinition } from './FontDefinition';
 
 class QuoteCard {
-  static build = (
-    data: QuoteData,
-    theme: Theme,
-    fontFamily: string
-  ): string => {
+  static build = (data: QuoteData, theme: Theme, font: FontData): string => {
     const { quote, author } = data;
 
     const { bg_color, quote_color, author_color, accent_color, border_color } =
@@ -16,6 +14,7 @@ class QuoteCard {
       <svg width="500" height="200" fill="none" xmlns="http://www.w3.org/2000/svg">
         <foreignObject width="100%" height="100%">
           <div xmlns="http://www.w3.org/1999/xhtml">
+            ${FontDefinition.build(font.name, font.woff)}
             <style>
               * {
                 margin: 0;
@@ -23,7 +22,7 @@ class QuoteCard {
                 box-sizing: border-box;
               }
               .card {
-                font-family: ${fontFamily};
+                font-family: ${font.family};
                 background-color: #${bg_color};
                 padding: 18px;
                 width: 500px;
@@ -43,9 +42,9 @@ class QuoteCard {
               .quote::before,
               .quote::after {
                 display: block;
-                font-size: 38px;
+                font-size: 44px;
                 color: #${accent_color};
-                margin-bottom: -20px;
+                margin-bottom: -26px;
               }
               .quote::before {
                 content: open-quote;

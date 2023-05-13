@@ -1,8 +1,14 @@
 import { fontFamilies } from '../fonts';
 import { defaultFont } from '../config';
 
-const setFont = (font: string): string => {
+type FontData = {
+  name: string;
+  family: string;
+  woff: string;
+};
+
+const setFont = (font: string): FontData => {
   return fontFamilies[font] || defaultFont;
 };
 
-export { setFont };
+export { setFont, FontData };
