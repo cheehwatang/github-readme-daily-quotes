@@ -10,6 +10,7 @@ import { garamond } from './garamond';
 import { courier_new } from './courier_new';
 import { delius } from './delius';
 import { merienda } from './merienda';
+import { sofia } from './sofia';
 
 const fontFamilies: { [key: string]: FontData } = {
   helvetica: {
@@ -57,15 +58,20 @@ const fontFamilies: { [key: string]: FontData } = {
     family: "'Courier New', monospace",
     woff: courier_new,
   },
+  delius: {
+    name: 'Delius',
+    family: 'Delius, Helvetica, sans-serif',
+    woff: delius,
+  },
   merienda: {
     name: 'Merienda',
     family: 'Merienda, cursive',
     woff: merienda,
   },
-  delius: {
-    name: 'Delius',
-    family: 'Delius, Helvetica, sans-serif',
-    woff: delius,
+  sofia: {
+    name: 'Sofia',
+    family: 'Sofia, cursive',
+    woff: sofia,
   },
 };
 
