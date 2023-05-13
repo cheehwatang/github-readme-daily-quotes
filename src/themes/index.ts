@@ -71,6 +71,13 @@ const themes: { [key: string]: Theme } = {
     accent_color: '8eb573',
     border_color: 'e4e2e2',
   },
+  cobalt: {
+    bg_color: '193549',
+    quote_color: 'e683d9',
+    author_color: '75eeb2',
+    accent_color: '0480ef',
+    border_color: 'e4e2e2',
+  },
 };
 
 export { themes };
