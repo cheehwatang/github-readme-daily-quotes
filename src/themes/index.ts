@@ -43,6 +43,13 @@ const themes: { [key: string]: Theme } = {
     accent_color: '2dde98',
     border_color: 'e4e2e2',
   },
+  merko: {
+    bg_color: '0a0f0b',
+    quote_color: 'abd200',
+    author_color: '68b587',
+    accent_color: 'b7d364',
+    border_color: 'e4e2e2',
+  },
 };
 
 export { themes };
