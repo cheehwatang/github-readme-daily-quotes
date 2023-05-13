@@ -92,6 +92,13 @@ const themes: { [key: string]: Theme } = {
     accent_color: '00ffff',
     border_color: 'e4e2e2',
   },
+  dracula: {
+    bg_color: '282a36',
+    quote_color: 'ff6e96',
+    author_color: 'f8f8f2',
+    accent_color: '79dafa',
+    border_color: 'e4e2e2',
+  },
 };
 
 export { themes };
