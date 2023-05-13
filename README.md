@@ -173,7 +173,7 @@ You can customize the appearance of your quote card as you wish with the URL par
 
 </br>
 
-## ✍️ Fonts
+## Fonts
 
 You can customize the font of the text.
 
@@ -183,7 +183,7 @@ Use `font=FONT_NAME` parameter like so:
 ![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?font=garamond)
 ```
 
-### All Available Inbuilt Fonts
+### ✍️ All Available Inbuilt Fonts
 
 Daily Quotes comes with the common fonts (e.g. `helvetica`, `arial`, `verdana`, `tahoma`, `trebuchet_ms`, `times_new_roman`, `georgia`, `garamond`, `courier_new`).
 
