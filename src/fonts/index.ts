@@ -7,20 +7,8 @@ import { trebuchet_ms } from './trebuchet_ms';
 import { times_new_roman } from './times_new_roman';
 import { georgia } from './georgia';
 import { garamond } from './garamond';
+import { courier_new } from './courier_new';
 import { delius } from './delius';
-
-// const fontFamilies: { [key: string]: string } = {
-//   helvetica: 'Helvetica, sans-serif',
-//   arial: 'Arial, sans-serif',
-//   verdana: 'Verdana, sans-serif',
-//   tahoma: 'Tahoma, sans-serif',
-//   trebuchet_ms: "'Trebuchet MS', sans-serif",
-//   times_new_roman: "'Times New Roman', serif",
-//   georgia: 'Georgia, serif',
-//   garamond: 'Garamond, serif',
-//   courier_new: "'Courier New', monospace",
-//   delius: 'Delius, Helvetica, sans-serif',
-// };
 
 const fontFamilies: { [key: string]: FontData } = {
   helvetica: {
@@ -62,6 +50,11 @@ const fontFamilies: { [key: string]: FontData } = {
     name: 'Garamond',
     family: 'Garamond, serif',
     woff: garamond,
+  },
+  courier_new: {
+    name: 'Courier New',
+    family: "'Courier New', monospace",
+    woff: courier_new,
   },
   delius: {
     name: 'Delius',
