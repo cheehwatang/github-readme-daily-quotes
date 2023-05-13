@@ -99,6 +99,13 @@ const themes: { [key: string]: Theme } = {
     accent_color: '79dafa',
     border_color: 'e4e2e2',
   },
+  prussian: {
+    bg_color: '172f45',
+    quote_color: 'bddfff',
+    author_color: '6e93b5',
+    accent_color: '38a0ff',
+    border_color: 'e4e2e2',
+  },
 };
 
 export { themes };
