@@ -56,30 +56,30 @@ Use `font=FONT_NAME` parameter like so:
 
 <!-- Sans Serif Fonts -->
 
-[helvetica]: https://readme-daily-quotes.vercel.app/api
-[arial]: https://readme-daily-quotes.vercel.app/api?font=arial
-[verdana]: https://readme-daily-quotes.vercel.app/api?font=verdana
-[tahoma]: https://readme-daily-quotes.vercel.app/api?font=tahoma
-[trebuchet_ms]: https://readme-daily-quotes.vercel.app/api?font=trebuchet_ms
-[open_sans]: https://readme-daily-quotes.vercel.app/api?font=open_sans
-[delius]: https://readme-daily-quotes.vercel.app/api?font=delius
+[helvetica]: https://readme-daily-quotes.vercel.app/api?author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.
+[arial]: https://readme-daily-quotes.vercel.app/api?font=arial&author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.
+[verdana]: https://readme-daily-quotes.vercel.app/api?font=verdana&author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.
+[tahoma]: https://readme-daily-quotes.vercel.app/api?font=tahoma&author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.
+[trebuchet_ms]: https://readme-daily-quotes.vercel.app/api?font=trebuchet_ms&author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.
+[open_sans]: https://readme-daily-quotes.vercel.app/api?font=open_sans&author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.
+[delius]: https://readme-daily-quotes.vercel.app/api?font=delius&author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.
 
 <!-- Serif Fonts -->
 
-[times_new_roman]: https://readme-daily-quotes.vercel.app/api?font=times_new_roman
-[georgia]: https://readme-daily-quotes.vercel.app/api?font=georgia
-[garamond]: https://readme-daily-quotes.vercel.app/api?font=garamond
-[libre_baskerville]: https://readme-daily-quotes.vercel.app/api?font=libre_baskerville
+[times_new_roman]: https://readme-daily-quotes.vercel.app/api?font=times_new_roman&author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.
+[georgia]: https://readme-daily-quotes.vercel.app/api?font=georgia&author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.
+[garamond]: https://readme-daily-quotes.vercel.app/api?font=garamond&author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.
+[libre_baskerville]: https://readme-daily-quotes.vercel.app/api?font=libre_baskerville&author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.
 
 <!-- Monospace Fonts -->
 
-[courier_new]: https://readme-daily-quotes.vercel.app/api?font=courier_new
+[courier_new]: https://readme-daily-quotes.vercel.app/api?font=courier_new&author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.
 
 <!-- Cursive Fonts -->
 
-[merienda]: https://readme-daily-quotes.vercel.app/api?font=merienda
-[sofia]: https://readme-daily-quotes.vercel.app/api?font=sofia
+[merienda]: https://readme-daily-quotes.vercel.app/api?font=merienda&author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.
+[sofia]: https://readme-daily-quotes.vercel.app/api?font=sofia&author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.
 
 <!-- Fantasy & Display Fonts -->
 
-[medieval_sharp]: https://readme-daily-quotes.vercel.app/api?font=medieval_sharp
+[medieval_sharp]: https://readme-daily-quotes.vercel.app/api?font=medieval_sharp&author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.
