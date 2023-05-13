@@ -2,6 +2,7 @@ import { FontData } from '../utils/setFont';
 import { helvetica } from './helvetica';
 import { arial } from './arial';
 import { verdana } from './verdana';
+import { tahoma } from './tahoma';
 import { delius } from './delius';
 
 // const fontFamilies: { [key: string]: string } = {
@@ -32,6 +33,11 @@ const fontFamilies: { [key: string]: FontData } = {
     name: 'Verdana',
     family: 'Verdana, sans-serif',
     woff: verdana,
+  },
+  tahoma: {
+    name: 'Tahoma',
+    family: 'Tahoma, sans-serif',
+    woff: tahoma,
   },
   delius: {
     name: 'Delius',
