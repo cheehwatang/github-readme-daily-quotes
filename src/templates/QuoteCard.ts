@@ -7,8 +7,15 @@ class QuoteCard {
   static build = (data: QuoteData, theme: Theme, font: FontData): string => {
     const { quote, author } = data;
 
-    const { bg_color, quote_color, author_color, accent_color, border_color } =
-      theme;
+    const {
+      bg_color,
+      quote_color,
+      author_color,
+      accent_color,
+      border_color,
+      border_width,
+      border_radius,
+    } = theme;
 
     return `
       <svg width="500" height="200" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -27,8 +34,8 @@ class QuoteCard {
                 padding: 18px;
                 width: 500px;
                 height: 200px;
-                border: 2px solid #${border_color};
-                border-radius: 12px;
+                border: ${border_width}px solid #${border_color};
+                border-radius: ${border_radius}px;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-around;

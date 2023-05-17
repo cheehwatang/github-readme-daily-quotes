@@ -3,6 +3,9 @@ import { fontFamilies } from '../fonts';
 
 const defaultTheme = themes.github_dark;
 
+const borderWidthConfig = { default: 1, min: 0, max: 5 };
+const borderRadiusConfig = { default: 8, min: 0, max: 40 };
+
 const defaultFont = fontFamilies.helvetica;
 
 const CONSTANTS = {
@@ -13,4 +16,10 @@ const CONSTANTS = {
   MAX_QUOTE_LENGTH: 140,
 };
 
-export { defaultTheme, defaultFont, CONSTANTS };
+export {
+  defaultTheme,
+  borderWidthConfig,
+  borderRadiusConfig,
+  defaultFont,
+  CONSTANTS,
+};

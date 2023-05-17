@@ -21,7 +21,7 @@
   - [Quotes Based on Category](#quotes-from-category)
   - [Customize Quotes](#customize-your-quotes)
 - [Themes](#themes)
-  - [Color Customization](#color-customization)
+  - [Customization](#customization)
   - [Responsive Theme](#responsive-theme)
 - [Fonts](#fonts)
 - [Deploy Yourself](#deploy-on-your-own)
@@ -58,18 +58,20 @@ Append the options using the `&` symbol like so:
 ![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?theme=light&category=programming)
 ```
 
-| OPTION       |   DEFAULT   | AVAILABLE                                                     |
-| ------------ | :---------: | ------------------------------------------------------------- |
-| theme        | github_dark | [All available themes](./src/themes/README.md)                |
-| font         |  helvetica  | [All available fonts](./src/fonts/README.md)                  |
-| quote        |      -      | Customize your quote                                          |
-| author       |      -      | The name of the quote's author                                |
-| category     |      -      | programming, stoicism                                         |
-| bg_color     |   0d1117    | Card's background color _(hex color)_                         |
-| quote_color  |   58a6ff    | Quote text color _(hex color)_                                |
-| author_color |   c3d1d9    | Author text color _(hex color)_                               |
-| accent_color |   1f6feb    | Accent color for the quotation marks and spacer _(hex color)_ |
-| border_color |   e4e2e2    | Card's border color _(hex color)_                             |
+| OPTION        |   DEFAULT   | AVAILABLE                                                     |
+| ------------- | :---------: | ------------------------------------------------------------- |
+| theme         | github_dark | [All available themes](./src/themes/README.md)                |
+| font          |  helvetica  | [All available fonts](./src/fonts/README.md)                  |
+| quote         |      -      | Customize your quote                                          |
+| author        |      -      | The name of the quote's author                                |
+| category      |      -      | programming, stoicism                                         |
+| bg_color      |   0d1117    | Card's background color _(hex color)_                         |
+| quote_color   |   58a6ff    | Quote text color _(hex color)_                                |
+| author_color  |   c3d1d9    | Author text color _(hex color)_                               |
+| accent_color  |   1f6feb    | Accent color for the quotation marks and spacer _(hex color)_ |
+| border_color  |   e4e2e2    | Card's border color _(hex color)_                             |
+| border_width  |      1      | Card's border width (in px)                                   |
+| border_radius |      8      | Card's border radius (in px)                                  |
 
 </br>
 
@@ -163,7 +165,7 @@ Below are some of my personal recommendations:
 
 </br>
 
-### Color Customization
+### Customization
 
 You can customize the appearance of your quote card as you wish with the URL parameters.
 
@@ -176,6 +178,10 @@ You can customize the appearance of your quote card as you wish with the URL par
 - `author_color` - Author text color _(hex color)_. Default: `c3d1d9`.
 - `accent_color` - Accent color for the quotation marks and spacer _(hex color)_. Default: `1f6feb`.
 - `border_color` - Card's border color _(hex color)_. Default: `e4e2e2`.
+- `border_width` - Card's border width. Default: `1`.
+- `border_radius` - Card's border radius. Default: `8`.
+
+> To hide border, set `border_width=0`.
 
 </br>
 

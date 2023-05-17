@@ -6,30 +6,34 @@ import { setFont, FontData } from '../src/utils/setFont';
 import { CONSTANTS } from '../src/config';
 
 interface Query {
+  theme: string;
+  font: string;
   quote: string;
   author: string;
-  theme: string;
+  category: string;
   bg_color: string;
   quote_color: string;
   author_color: string;
   accent_color: string;
   border_color: string;
-  category: string;
-  font: string;
+  border_width: number;
+  border_radius: number;
 }
 
 const handler = async (request: VercelRequest, response: VercelResponse) => {
   const {
+    theme,
+    font,
     quote,
     author,
-    theme,
+    category,
     bg_color,
     quote_color,
     author_color,
     accent_color,
     border_color,
-    category,
-    font,
+    border_radius,
+    border_width,
   } = request.query as unknown as Query;
 
   const quoteData: QuoteData = await setQuoteData({ quote, author }, category);
@@ -40,6 +44,8 @@ const handler = async (request: VercelRequest, response: VercelResponse) => {
     author_color,
     accent_color,
     border_color,
+    border_radius,
+    border_width,
   });
 
   const fontData: FontData = setFont(font);
