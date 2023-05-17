@@ -60,6 +60,7 @@ Append the options using the `&` symbol like so:
 | OPTION       |   DEFAULT   | AVAILABLE                                                     |
 | ------------ | :---------: | ------------------------------------------------------------- |
 | theme        | github_dark | [All available themes](./src/themes/README.md)                |
+| font         |  helvetica  | [All available fonts](./src/fonts/README.md)                  |
 | quote        |      -      | Customize your quote                                          |
 | author       |      -      | The name of the quote's author                                |
 | category     |      -      | programming, stoicism                                         |
@@ -68,7 +69,6 @@ Append the options using the `&` symbol like so:
 | author_color |   c3d1d9    | Author text color _(hex color)_                               |
 | accent_color |   1f6feb    | Accent color for the quotation marks and spacer _(hex color)_ |
 | border_color |   e4e2e2    | Card's border color _(hex color)_                             |
-| font         |  helvetica  | [All available fonts](./src/fonts/README.md)                  |
 
 </br>
 
@@ -198,7 +198,7 @@ You can look at a preview for [all available fonts](./src/fonts/README.md).
 
 Below are some of my personal recommendations:
 
-#### Trebuchet MS (Default) `font=trebuchet_ms`
+#### Trebuchet MS `font=trebuchet_ms`
 
 [![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?font=trebuchet_ms&author=Seneca&quote=If%20a%20man%20knows%20not%20to%20which%20port%20he%20sails,%20no%20wind%20is%20favorable.)](https://github.com/cheehwatang/github-readme-daily-quotes)
 
