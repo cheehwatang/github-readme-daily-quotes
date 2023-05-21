@@ -6,7 +6,7 @@ on:
       - master
 
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -20,5 +20,8 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run Test
+      - name: Run Tests
         run: npm test
+
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v3
