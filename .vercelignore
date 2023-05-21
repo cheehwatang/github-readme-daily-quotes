@@ -1,0 +1,5 @@
+.env
+.github/
+coverage/
+package-lock.json
+assets/

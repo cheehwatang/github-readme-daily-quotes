@@ -1,20 +1,27 @@
 {
-  "name": "github-readme-quotes",
+  "name": "github-readme-daily-quotes",
   "version": "1.0.0",
-  "description": "Simple Quote Card for Github Readme",
-  "main": "index.ts",
+  "description": "Daily Quote Widget for your GitHub profile",
+  "keywords": [
+    "github-readme-daily-quotes",
+    "github-readme-quotes",
+    "readme-daily-quotes",
+    "readme-quotes",
+    "cards",
+    "card-generator"
+  ],
+  "main": "api/index.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cheehwatang/github-readme-daily-quotes.git"
+  },
+  "author": "Chee Hwa Tang",
+  "license": "MIT",
+  "homepage": "https://github.com/cheehwatang/github-readme-daily-quotes",
   "scripts": {
     "test": "jest",
     "format:check": "prettier --check ."
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cheehwatang/github-readme-quotes.git"
-  },
-  "keywords": [],
-  "author": "Chee Hwa Tang",
-  "license": "MIT",
-  "homepage": "https://github.com/cheehwatang/github-readme-quotes",
   "devDependencies": {
     "@types/jest": "^29.5.1",
     "@vercel/node": "^2.14.1",
