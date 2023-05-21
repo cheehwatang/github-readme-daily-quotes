@@ -1,8 +1,8 @@
 {
-  "redirects": [
-    {
-      "source": "/",
-      "destination": "https://github.com/cheehwatang/github-readme-daily-quotes"
-    }
-  ]
+	"redirects": [
+		{
+			"source": "/",
+			"destination": "https://github.com/cheehwatang/github-readme-daily-quotes"
+		}
+	]
 }
