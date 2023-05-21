@@ -1,23 +1,24 @@
 import { QuoteData } from '../utils/setQuoteData';
 import { Theme } from '../utils/setTheme';
+import { ThemeBorder } from '../utils/setBorder';
 import { FontData } from '../utils/setFont';
 import { FontDefinition } from './FontDefinition';
 
 class QuoteCard {
-  static build = (data: QuoteData, theme: Theme, font: FontData): string => {
-    const { quote, author } = data;
+	static build = (
+		data: QuoteData,
+		theme: Theme,
+		border: ThemeBorder,
+		font: FontData
+	): string => {
+		const { quote, author } = data;
 
-    const {
-      bg_color,
-      quote_color,
-      author_color,
-      accent_color,
-      border_color,
-      border_width,
-      border_radius,
-    } = theme;
+		const { bg_color, quote_color, author_color, accent_color, border_color } =
+			theme;
 
-    return `
+		const { border_width, border_radius } = border;
+
+		return `
       <svg width="500" height="200" fill="none" xmlns="http://www.w3.org/2000/svg">
         <foreignObject width="100%" height="100%">
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -98,7 +99,7 @@ class QuoteCard {
         </foreignObject>
       </svg>
     `;
-  };
+	};
 }
 
 export { QuoteCard };
