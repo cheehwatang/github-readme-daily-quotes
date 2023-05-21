@@ -5,7 +5,7 @@ node_modules/
 .env
 
 # Ignore vercel generated files
-.vercel
+.vercel/
 
-# Ignore coverage
+# Ignore test coverage folder.
 coverage/
