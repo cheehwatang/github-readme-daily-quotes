@@ -12,12 +12,6 @@ module.exports = {
 				'@typescript-eslint/no-unsafe-call': 'off',
 			},
 		},
-		{
-			extends: [
-				'plugin:@typescript-eslint/recommended-requiring-type-checking',
-			],
-			files: ['**/*.ts'],
-		},
 	],
 	plugins: ['@typescript-eslint'],
 	parser: '@typescript-eslint/parser',
