@@ -4,37 +4,37 @@ import { fetchDefaultQuote } from './fetchDefaultQuote';
 import { CONSTANTS } from '../config';
 
 type ProgrammingQuote = {
-  en: string;
-  author: string;
+	en: string;
+	author: string;
 };
 
 const apiUrl =
-  'https://github.com/skolakoda/programming-quotes-api/raw/master/Data/quotes.json';
+	'https://github.com/skolakoda/programming-quotes-api/raw/master/Data/quotes.json';
 
 const fetchProgrammingQuote = async (): Promise<QuoteData> => {
-  try {
-    const response = await axios.get(apiUrl);
-    const quoteArray = response.data as ProgrammingQuote[];
+	try {
+		const response = await axios.get(apiUrl);
+		const quoteArray = response.data as ProgrammingQuote[];
 
-    let quote = randomQuote(quoteArray);
-    while (quote.en.length > CONSTANTS.MAX_QUOTE_LENGTH) {
-      quote = randomQuote(quoteArray);
-    }
+		let quote = randomQuote(quoteArray);
+		while (quote.en.length > CONSTANTS.MAX_QUOTE_LENGTH) {
+			quote = randomQuote(quoteArray);
+		}
 
-    return parseData(quote);
-  } catch (error: unknown) {
-    return fetchDefaultQuote();
-  }
+		return parseData(quote);
+	} catch (error: unknown) {
+		return fetchDefaultQuote();
+	}
 };
 
 const randomQuote = (data: ProgrammingQuote[]): ProgrammingQuote => {
-  const randomIndex = Math.floor(Math.random() * data.length);
+	const randomIndex = Math.floor(Math.random() * data.length);
 
-  return data[randomIndex];
+	return data[randomIndex];
 };
 
 const parseData = (data: ProgrammingQuote): QuoteData => {
-  return { quote: data.en, author: data.author };
+	return { quote: data.en, author: data.author };
 };
 
 export { fetchProgrammingQuote };

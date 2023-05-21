@@ -1,6 +1,6 @@
 class FontDefinition {
-  static build = (name: string, woff: string) => {
-    return `
+	static build = (name: string, woff: string) => {
+		return `
       <defs>
         <style type="text/css">
           <![CDATA[
@@ -14,7 +14,7 @@ class FontDefinition {
         </style>
       </defs>
     `;
-  };
+	};
 }
 
 export { FontDefinition };

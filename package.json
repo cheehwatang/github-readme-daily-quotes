@@ -1,37 +1,46 @@
 {
-  "name": "github-readme-daily-quotes",
-  "version": "1.0.0",
-  "description": "Daily Quote Widget for your GitHub profile",
-  "keywords": [
-    "github-readme-daily-quotes",
-    "github-readme-quotes",
-    "readme-daily-quotes",
-    "readme-quotes",
-    "cards",
-    "card-generator"
-  ],
-  "main": "api/index.ts",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/cheehwatang/github-readme-daily-quotes.git"
-  },
-  "author": "Chee Hwa Tang",
-  "license": "MIT",
-  "homepage": "https://github.com/cheehwatang/github-readme-daily-quotes",
-  "scripts": {
-    "test": "jest",
-    "format:check": "prettier --check ."
-  },
-  "devDependencies": {
-    "@types/jest": "^29.5.1",
-    "@vercel/node": "^2.14.1",
-    "jest": "^29.5.0",
-    "prettier": "^2.8.8",
-    "ts-jest": "^29.1.0",
-    "typescript": "^5.0.4",
-    "vercel": "^29.1.1"
-  },
-  "dependencies": {
-    "axios": "^1.4.0"
-  }
+	"name": "github-readme-daily-quotes",
+	"version": "1.0.0",
+	"description": "Daily Quote Widget for your GitHub profile",
+	"keywords": [
+		"github-readme-daily-quotes",
+		"github-readme-quotes",
+		"readme-daily-quotes",
+		"readme-quotes",
+		"cards",
+		"card-generator"
+	],
+	"main": "api/index.ts",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/cheehwatang/github-readme-daily-quotes.git"
+	},
+	"author": "Chee Hwa Tang",
+	"license": "MIT",
+	"homepage": "https://github.com/cheehwatang/github-readme-daily-quotes",
+	"scripts": {
+		"test": "jest",
+		"prepare": "husky install",
+		"lint": "eslint . --max-warnings 0 --report-unused-disable-directives",
+		"lint:fix": "npm run lint -- --fix",
+		"format": "prettier --write .",
+		"format:check": "prettier --check ."
+	},
+	"devDependencies": {
+		"@types/jest": "^29.5.1",
+		"@typescript-eslint/eslint-plugin": "^5.59.6",
+		"@typescript-eslint/parser": "^5.59.6",
+		"@vercel/node": "^2.14.1",
+		"eslint": "^8.41.0",
+		"husky": "^8.0.3",
+		"jest": "^29.5.0",
+		"lint-staged": "^13.2.2",
+		"prettier": "^2.8.8",
+		"ts-jest": "^29.1.0",
+		"typescript": "^5.0.4",
+		"vercel": "^29.3.6"
+	},
+	"dependencies": {
+		"axios": "^1.4.0"
+	}
 }
