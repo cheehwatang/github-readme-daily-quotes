@@ -21,6 +21,8 @@
 	"scripts": {
 		"test": "jest",
 		"prepare": "husky install",
+		"lint": "eslint . --max-warnings 0 --report-unused-disable-directives",
+		"lint:fix": "npm run lint -- --fix",
 		"format": "prettier --write .",
 		"format:check": "prettier --check ."
 	},
