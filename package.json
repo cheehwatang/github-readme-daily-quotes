@@ -4,7 +4,8 @@
   "description": "Simple Quote Card for Github Readme",
   "main": "index.ts",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "format:check": "prettier --check ."
   },
   "repository": {
     "type": "git",
