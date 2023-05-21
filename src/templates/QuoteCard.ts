@@ -31,7 +31,7 @@ class QuoteCard {
               .card {
                 font-family: ${font.family};
                 background-color: #${bg_color};
-                padding: 18px;
+                padding: 14px 18px;
                 width: 500px;
                 height: 200px;
                 border: ${border_width}px solid #${border_color};
@@ -43,7 +43,6 @@ class QuoteCard {
               .quote {
                 font-size: 18px;
                 color: #${quote_color};
-                padding: 0 16px;
                 line-height: 1.2;
               }
               .quote::before,
@@ -56,17 +55,18 @@ class QuoteCard {
               .quote::before {
                 content: open-quote;
                 text-align: left;
-                transform: translateX(-18px);
+                transform: translateX(-2px);
               }
               .quote::after {
                 content: close-quote;
                 text-align: right;
-                transform: translateX(18px);
+                transform: translateX(2px);
               }
               .author {
                 font-size: 14px;
                 font-style: italic;
                 color: #${author_color};
+                padding: 0 4px 4px;
                 white-space: nowrap;
                 overflow: hidden;
                 text-overflow: ellipsis;
@@ -76,9 +76,10 @@ class QuoteCard {
                 content: '';
                 width: 24px;
                 border-bottom: solid 3px #${accent_color};
-                margin-bottom: 16px;
+                margin-bottom: 10px;
               }
               .text-concat {
+                padding: 4px 16px;
                 display: -webkit-box;
                 -webkit-line-clamp: 3;
                 -webkit-box-orient: vertical;
