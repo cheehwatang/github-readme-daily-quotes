@@ -1,0 +1,11 @@
+# Ignore node modules.
+node_modules/
+
+# Ignore environment variables and private keys.
+.env
+
+# Ignore vercel generated files
+.vercel/
+
+# Ignore test coverage folder.
+coverage/
