@@ -7,8 +7,8 @@ type Theme = {
   author_color: string;
   accent_color: string;
   border_color: string;
-  border_width: number;
-  border_radius: number;
+  border_width?: number;
+  border_radius?: number;
 };
 
 const setTheme = (theme: string, customTheme: Theme): Theme => {
