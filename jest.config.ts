@@ -18,6 +18,7 @@ const config: Config.InitialOptions = {
 		'<rootDir>/src/app/config/',
 		'<rootDir>/src/app/themes/',
 	],
+	clearMocks: true,
 };
 
 export default config;
