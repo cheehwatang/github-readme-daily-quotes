@@ -1,10 +1,10 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-import { renderQuoteCard } from '../src/renderQuoteCard';
-import { setQuoteData, QuoteData } from '../src/utils/setQuoteData';
-import { setTheme, Theme } from '../src/utils/setTheme';
-import { setBorder, ThemeBorder } from '../src/utils/setBorder';
-import { setFont, FontData } from '../src/utils/setFont';
-import { CONSTANTS } from '../src/config';
+import { renderQuoteCard } from '../src/app/renderQuoteCard';
+import { setQuoteData, QuoteData } from '../src/app/utils/setQuoteData';
+import { setTheme, Theme } from '../src/app/utils/setTheme';
+import { setBorder, ThemeBorder } from '../src/app/utils/setBorder';
+import { setFont, FontData } from '../src/app/utils/setFont';
+import { CONSTANTS } from '../src/app/config';
 
 interface Query {
 	theme: string;
