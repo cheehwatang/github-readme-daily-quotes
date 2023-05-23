@@ -5,10 +5,103 @@
   </br>
   <h1 align="center">Daily Quotes Card</h1>
   <p align="center">Inspiring Quotes on your Github Profile</p>
-  </br>
+</div>
+
+</br>
+
+<div align="center">
+  <a href="https://github.com/cheehwatang/github-readme-daily-quotes/actions">
+    <img alt="Tests Passing" src="https://github.com/cheehwatang/github-readme-daily-quotes/workflows/Test/badge.svg" />
+  </a>
+  &nbsp;
+  <a href="https://codecov.io/gh/cheehwatang/github-readme-daily-quotes">
+    <img alt="Code Coverage Percentage" src="https://codecov.io/gh/cheehwatang/github-readme-daily-quotes/branch/master/graph/badge.svg" />
+  </a>
+  &nbsp;
+  <a href="https://www.codefactor.io/repository/github/cheehwatang/github-readme-daily-quotes">
+    <img src="https://img.shields.io/codefactor/grade/github/cheehwatang/github-readme-daily-quotes" alt="CodeFactor Rating" />
+  </a>
+  &nbsp;
+  <a href="https://snyk.io/test/github/cheehwatang/github-readme-daily-quotes?targetFile=package.json">
+    <img alt="Known Vulnerabilities" src="https://snyk.io/test/github/cheehwatang/github-readme-daily-quotes/badge.svg?targetFile=package.json" />
+  </a>
+  &nbsp;
+  <a href="#">
+    <img alt="Latest Dependencies" src="https://img.shields.io/depfu/dependencies/github/cheehwatang/github-readme-daily-quotes.svg" />
+  </a>
+  &nbsp;
+  <a href="https://readme-daily-quotes.vercel.app/api">
+    <img alt="Deployed on Vercel" src="https://therealsujitk-vercel-badge.vercel.app/?app=readme-daily-quotes" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/cheehwatang/github-readme-daily-quotes/blob/master/LICENSE.md">
+    <img alt="MIT License" src="https://img.shields.io/github/license/cheehwatang/github-readme-daily-quotes" />
+  </a>
+  &nbsp;
+  <a href="#">
+    <img alt="Code Style: Prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square">
+  </a>
+  &nbsp;
+  <a href="#">
+    <img alt="Repository Top Language" src="https://img.shields.io/github/languages/top/cheehwatang/github-readme-daily-quotes" />
+  </a>
+</div>
+
+</br>
+
+<div align="center">
   <a href="https://github.com/cheehwatang/github-readme-daily-quotes">
     <img src="https://readme-daily-quotes.vercel.app/api?font=trebuchet_ms" alt="Github Readme Daily Quotes">
   </a>
+</div>
+
+</br>
+
+<div align="center">
+  <h2 align="center">Tech Stack</h1>
+  &nbsp;
+  <a href="#gh-dark-mode-only">
+      <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-050505?style=for-the-badge&logo=typescript#gh-dark-mode-only">
+  </a>
+  <a href="#gh-light-mode-only">
+      <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-FFFFFF?style=for-the-badge&logo=typescript#gh-light-mode-only">
+  </a>
+  &nbsp;
+  <a href="#gh-dark-mode-only">
+    <img alt="SVG" src="https://img.shields.io/badge/SVG-050505?style=for-the-badge&logo=svg#gh-dark-mode-only"/>
+  </a>
+  <a href="#gh-light-mode-only">
+    <img alt="SVG" src="https://img.shields.io/badge/SVG-FFFFFF?style=for-the-badge&logo=svg#gh-light-mode-only"/>
+  </a>
+  &nbsp;
+  <a href="#gh-dark-mode-only">
+    <img alt="Jest" src="https://img.shields.io/badge/Jest-050505?style=for-the-badge&logo=jest&logoColor=C21325#gh-dark-mode-only"/>
+  </a>
+  <a href="#gh-light-mode-only">
+    <img alt="Jest" src="https://img.shields.io/badge/Jest-FFFFFF?style=for-the-badge&logo=jest&logoColor=C21325#gh-light-mode-only"/>
+  </a>
+  &nbsp;
+  <a href="#gh-dark-mode-only">
+    <img alt="Axios" src="https://img.shields.io/badge/Axios-050505?style=for-the-badge&logo=axios&logoColor=5A29E4#gh-dark-mode-only"/>
+  </a>
+  <a href="#gh-light-mode-only">
+    <img alt="Axios" src="https://img.shields.io/badge/Axios-FFFFFF?style=for-the-badge&logo=axios&logoColor=5A29E4#gh-light-mode-only"/>
+  </a>
+  &nbsp;
+  <a href="#gh-dark-mode-only">
+    <img alt="Github Actions" src="https://img.shields.io/badge/Github Actions-050505?style=for-the-badge&logo=githubactions#gh-dark-mode-only"/>
+  </a>
+  <a href="#gh-light-mode-only">
+    <img alt="Github Actions" src="https://img.shields.io/badge/Github Actions-FFFFFF?style=for-the-badge&logo=githubactions#gh-light-mode-only"/>
+  </a>
+  &nbsp;
+  <a href="#gh-dark-mode-only">
+    <img alt="Vercel" src="https://img.shields.io/badge/Vercel-050505?style=for-the-badge&logo=vercel&logoColor=white#gh-dark-mode-only"/>
+  </a>
+  <a href="#gh-light-mode-only">
+    <img alt="Vercel" src="https://img.shields.io/badge/Vercel-FFFFFF?style=for-the-badge&logo=vercel&logoColor=black#gh-light-mode-only"/>
+  </a>
+  &nbsp;
 </div>
 
 </br>
@@ -70,8 +163,8 @@ Append the options using the `&` symbol like so:
 | author_color  |   c3d1d9    | Author text color _(hex color)_                               |
 | accent_color  |   1f6feb    | Accent color for the quotation marks and spacer _(hex color)_ |
 | border_color  |   e4e2e2    | Card's border color _(hex color)_                             |
-| border_width  |      1      | Card's border width (in px)                                   |
-| border_radius |      8      | Card's border radius (in px)                                  |
+| border_width  |      1      | Card's border width (in px) (range from 0 - 5)                |
+| border_radius |      8      | Card's border radius (in px) (range from 0 - 40)              |
 
 </br>
 
@@ -178,8 +271,8 @@ You can customize the appearance of your quote card as you wish with the URL par
 - `author_color` - Author text color _(hex color)_. Default: `c3d1d9`.
 - `accent_color` - Accent color for the quotation marks and spacer _(hex color)_. Default: `1f6feb`.
 - `border_color` - Card's border color _(hex color)_. Default: `e4e2e2`.
-- `border_width` - Card's border width. Default: `1`.
-- `border_radius` - Card's border radius. Default: `8`.
+- `border_width` - Card's border width. Default: `1`. Range from `0 - 5`.
+- `border_radius` - Card's border radius. Default: `8`. Range from `0 - 40`.
 
 > To hide border, set `border_width=0`.
 
@@ -375,21 +468,6 @@ You can keep your fork, and thus your private Vercel instance up to date with th
     </a>
     <a href="https://github.com/PiyushSuthar#gh-light-mode-only">
       <img src="https://img.shields.io/badge/by-@PiyushSuthar-FFFFFF?style=flat-square#gh-light-mode-only"/>
-    </a>
-  </li>
-  <li>
-    <p>Learning From </p>
-    <a href="https://github.com/ABSphreak/readme-jokes#gh-dark-mode-only">
-      <img src="https://img.shields.io/badge/Github Readme Jokes-0D1117?style=flat-square#gh-dark-mode-only"/>
-    </a>
-    <a href="https://github.com/ABSphreak/readme-jokes#gh-light-mode-only">
-      <img src="https://img.shields.io/badge/Github Readme Jokes-FFFFFF?style=flat-square#gh-light-mode-only"/>
-    </a>
-    <a href="https://github.com/ABSphreak#gh-dark-mode-only">
-      <img src="https://img.shields.io/badge/by-@ABSphreak-0D1117?style=flat-square#gh-dark-mode-only"/>
-    </a>
-    <a href="https://github.com/ABSphreak#gh-light-mode-only">
-      <img src="https://img.shields.io/badge/by-@ABSphreak-FFFFFF?style=flat-square#gh-light-mode-only"/>
     </a>
   </li>
 </ul>
