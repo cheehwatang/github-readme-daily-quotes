@@ -6,6 +6,9 @@
   <h1 align="center">Daily Quotes Card</h1>
   <p align="center">Inspiring Quotes on your Github Profile</p>
   </br>
+</div>
+
+<div align="center">
   <a href="https://github.com/cheehwatang/github-readme-daily-quotes">
     <img src="https://readme-daily-quotes.vercel.app/api?font=trebuchet_ms" alt="Github Readme Daily Quotes">
   </a>
