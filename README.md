@@ -49,6 +49,55 @@
 
 </br>
 
+<div align="center">
+  <h2 align="center">Tech Stack</h1>
+  &emsp;
+  <a href="#gh-dark-mode-only">
+      <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-050505?style=for-the-badge&logo=typescript#gh-dark-mode-only">
+  </a>
+  <a href="#gh-light-mode-only">
+      <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-FFFFFF?style=for-the-badge&logo=typescript#gh-light-mode-only">
+  </a>
+  &emsp;
+  <a href="#gh-dark-mode-only">
+    <img alt="SVG" src="https://img.shields.io/badge/SVG-050505?style=for-the-badge&logo=svg#gh-dark-mode-only"/>
+  </a>
+  <a href="#gh-light-mode-only">
+    <img alt="SVG" src="https://img.shields.io/badge/SVG-FFFFFF?style=for-the-badge&logo=svg#gh-light-mode-only"/>
+  </a>
+  &emsp;
+  <a href="#gh-dark-mode-only">
+    <img alt="Jest" src="https://img.shields.io/badge/Jest-050505?style=for-the-badge&logo=jest&logoColor=C21325#gh-dark-mode-only"/>
+  </a>
+  <a href="#gh-light-mode-only">
+    <img alt="Jest" src="https://img.shields.io/badge/Jest-FFFFFF?style=for-the-badge&logo=jest&logoColor=C21325#gh-light-mode-only"/>
+  </a>
+  &emsp;
+  <a href="#gh-dark-mode-only">
+    <img alt="Axios" src="https://img.shields.io/badge/Axios-050505?style=for-the-badge&logo=axios&logoColor=5A29E4#gh-dark-mode-only"/>
+  </a>
+  <a href="#gh-light-mode-only">
+    <img alt="Axios" src="https://img.shields.io/badge/Axios-FFFFFF?style=for-the-badge&logo=axios&logoColor=5A29E4#gh-light-mode-only"/>
+  </a>
+  &emsp;
+  <a href="#gh-dark-mode-only">
+    <img alt="Github Actions" src="https://img.shields.io/badge/Github Actions-050505?style=for-the-badge&logo=githubactions#gh-dark-mode-only"/>
+  </a>
+  <a href="#gh-light-mode-only">
+    <img alt="Github Actions" src="https://img.shields.io/badge/Github Actions-FFFFFF?style=for-the-badge&logo=githubactions#gh-light-mode-only"/>
+  </a>
+  &emsp;
+  <a href="#gh-dark-mode-only">
+    <img alt="Vercel" src="https://img.shields.io/badge/Vercel-050505?style=for-the-badge&logo=vercel&logoColor=white#gh-dark-mode-only"/>
+  </a>
+  <a href="#gh-light-mode-only">
+    <img alt="Vercel" src="https://img.shields.io/badge/Vercel-FFFFFF?style=for-the-badge&logo=vercel&logoColor=black#gh-light-mode-only"/>
+  </a>
+  &emsp;
+</div>
+
+</br>
+
 ## Features
 
 - [Usage](#usage)
