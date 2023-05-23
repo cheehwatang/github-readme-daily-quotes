@@ -22,6 +22,9 @@
   <a href="https://readme-daily-quotes.vercel.app/api">
     <img alt="Deployed on Vercel" src="https://therealsujitk-vercel-badge.vercel.app/?app=readme-daily-quotes" />
   </a>
+  <a href="#">
+    <img alt="Code Style: Prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square">
+  </a>
 </div>
 
 </br>
