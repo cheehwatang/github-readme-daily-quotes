@@ -5,8 +5,17 @@
   </br>
   <h1 align="center">Daily Quotes Card</h1>
   <p align="center">Inspiring Quotes on your Github Profile</p>
-  </br>
 </div>
+
+</br>
+
+<div align="center">
+  <a href="https://github.com/cheehwatang/github-readme-daily-quotes/actions">
+    <img alt="Tests Passing" src="https://github.com/cheehwatang/github-readme-daily-quotes/workflows/Test/badge.svg" />
+  </a>
+</div>
+
+</br>
 
 <div align="center">
   <a href="https://github.com/cheehwatang/github-readme-daily-quotes">
