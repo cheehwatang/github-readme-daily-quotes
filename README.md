@@ -16,6 +16,9 @@
   <a href="https://codecov.io/gh/cheehwatang/github-readme-daily-quotes">
     <img alt="Code Coverage Percentage" src="https://codecov.io/gh/cheehwatang/github-readme-daily-quotes/branch/master/graph/badge.svg" />
   </a>
+  <a href="https://www.codefactor.io/repository/github/cheehwatang/github-readme-daily-quotes">
+    <img src="https://img.shields.io/codefactor/grade/github/cheehwatang/github-readme-daily-quotes" alt="CodeFactor Rating" />
+  </a>
   <a href="https://readme-daily-quotes.vercel.app/api">
     <img alt="Deployed on Vercel" src="https://therealsujitk-vercel-badge.vercel.app/?app=readme-daily-quotes" />
   </a>
