@@ -25,6 +25,9 @@
   <a href="#">
     <img alt="Code Style: Prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square">
   </a>
+  <a href="#">
+    <img alt="Repository Top Language" src="https://img.shields.io/github/languages/top/cheehwatang/github-readme-daily-quotes" />
+  </a>
 </div>
 
 </br>
