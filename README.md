@@ -16,6 +16,9 @@
   <a href="https://codecov.io/gh/cheehwatang/github-readme-daily-quotes">
     <img alt="Code Coverage Percentage" src="https://codecov.io/gh/cheehwatang/github-readme-daily-quotes/branch/master/graph/badge.svg" />
   </a>
+  <a href="https://readme-daily-quotes.vercel.app/api">
+    <img alt="Deployed on Vercel" src="https://therealsujitk-vercel-badge.vercel.app/?app=readme-daily-quotes" />
+  </a>
 </div>
 
 </br>
