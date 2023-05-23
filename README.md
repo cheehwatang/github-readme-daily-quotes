@@ -163,8 +163,8 @@ Append the options using the `&` symbol like so:
 | author_color  |   c3d1d9    | Author text color _(hex color)_                               |
 | accent_color  |   1f6feb    | Accent color for the quotation marks and spacer _(hex color)_ |
 | border_color  |   e4e2e2    | Card's border color _(hex color)_                             |
-| border_width  |      1      | Card's border width (in px)                                   |
-| border_radius |      8      | Card's border radius (in px)                                  |
+| border_width  |      1      | Card's border width (in px) (range from 0 - 5)                |
+| border_radius |      8      | Card's border radius (in px) (range from 0 - 40)              |
 
 </br>
 
@@ -271,8 +271,8 @@ You can customize the appearance of your quote card as you wish with the URL par
 - `author_color` - Author text color _(hex color)_. Default: `c3d1d9`.
 - `accent_color` - Accent color for the quotation marks and spacer _(hex color)_. Default: `1f6feb`.
 - `border_color` - Card's border color _(hex color)_. Default: `e4e2e2`.
-- `border_width` - Card's border width. Default: `1`.
-- `border_radius` - Card's border radius. Default: `8`.
+- `border_width` - Card's border width. Default: `1`. Range from `0 - 5`.
+- `border_radius` - Card's border radius. Default: `8`. Range from `0 - 40`.
 
 > To hide border, set `border_width=0`.
 
