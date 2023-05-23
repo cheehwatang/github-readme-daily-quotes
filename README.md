@@ -13,6 +13,9 @@
   <a href="https://github.com/cheehwatang/github-readme-daily-quotes/actions">
     <img alt="Tests Passing" src="https://github.com/cheehwatang/github-readme-daily-quotes/workflows/Test/badge.svg" />
   </a>
+  <a href="https://codecov.io/gh/cheehwatang/github-readme-daily-quotes">
+    <img alt="Code Coverage Percentage" src="https://codecov.io/gh/cheehwatang/github-readme-daily-quotes/branch/master/graph/badge.svg" />
+  </a>
 </div>
 
 </br>
