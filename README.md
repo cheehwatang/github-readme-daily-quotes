@@ -22,6 +22,9 @@
   <a href="https://snyk.io/test/github/cheehwatang/github-readme-daily-quotes?targetFile=package.json">
     <img alt="Known Vulnerabilities" src="https://snyk.io/test/github/cheehwatang/github-readme-daily-quotes/badge.svg?targetFile=package.json" />
   </a>
+  <a href="#">
+    <img alt="Latest Dependencies" src="https://img.shields.io/depfu/dependencies/github/cheehwatang/github-readme-daily-quotes.svg" />
+  </a>
   <a href="https://readme-daily-quotes.vercel.app/api">
     <img alt="Deployed on Vercel" src="https://therealsujitk-vercel-badge.vercel.app/?app=readme-daily-quotes" />
   </a>
