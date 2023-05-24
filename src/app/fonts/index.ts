@@ -72,6 +72,7 @@ import { sail } from './woff/sail';
 import { corben } from './woff/corben';
 import { expletus_sans } from './woff/expletus_sans';
 import { yatra_one } from './woff/yatra_one';
+import { turret_road } from './woff/turret_road';
 
 const fontFamilies: { [key: string]: FontData } = {
 	// San Serif fonts (fallback: san-serif)
@@ -418,6 +419,11 @@ const fontFamilies: { [key: string]: FontData } = {
 		name: 'Yatra One',
 		family: "'Yatra One', fantasy",
 		woff: yatra_one,
+	},
+	turret_road: {
+		name: 'Turret Road',
+		family: "'Turret Road', fantasy",
+		woff: turret_road,
 	},
 };
 
