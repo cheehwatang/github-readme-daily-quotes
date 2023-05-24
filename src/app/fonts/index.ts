@@ -78,6 +78,7 @@ import { flamenco } from './woff/flamenco';
 import { stardos_stencil } from './woff/stardos_stencil';
 import { new_rocker } from './woff/new_rocker';
 import { dotgothic16 } from './woff/dotgothic16';
+import { vt323 } from './woff/vt323';
 
 const fontFamilies: { [key: string]: FontData } = {
 	// San Serif fonts (fallback: san-serif)
@@ -454,6 +455,11 @@ const fontFamilies: { [key: string]: FontData } = {
 		name: 'DotGothic16',
 		family: 'DotGothic16, cursive',
 		woff: dotgothic16,
+	},
+	vt323: {
+		name: 'VT323',
+		family: 'VT323, cursive',
+		woff: vt323,
 	},
 };
 
