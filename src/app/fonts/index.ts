@@ -48,10 +48,11 @@ import { cousine } from './woff/cousine';
 import { source_code_pro } from './woff/source_code_pro';
 import { pt_mono } from './woff/pt_mono';
 import { anonymous_pro } from './woff/anonymous_pro';
-// Cursive Fonts
+// Cursive and Handwriting Fonts
 import { merienda } from './woff/merienda';
 import { sofia } from './woff/sofia';
-// Fantasy & Display Fonts
+import { amita } from './woff/amita';
+// Fantasy and Display Fonts
 import { medieval_sharp } from './woff/medieval_sharp';
 import { raleway_dots } from './woff/raleway_dots';
 import { special_elite } from './woff/special_elite';
@@ -290,7 +291,7 @@ const fontFamilies: { [key: string]: FontData } = {
 		family: "'Anonymous Pro', monospace",
 		woff: anonymous_pro,
 	},
-	// Cursive fonts (fallback: cursive)
+	// Cursive and Handwriting fonts (fallback: cursive)
 	merienda: {
 		name: 'Merienda',
 		family: 'Merienda, cursive',
@@ -300,6 +301,11 @@ const fontFamilies: { [key: string]: FontData } = {
 		name: 'Sofia',
 		family: 'Sofia, cursive',
 		woff: sofia,
+	},
+	amita: {
+		name: 'Amita',
+		family: 'Amita, cursive',
+		woff: amita,
 	},
 	// Fantasy and Display fonts (fallback: fantasy)
 	medieval_sharp: {
