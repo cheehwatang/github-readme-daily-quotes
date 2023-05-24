@@ -76,6 +76,7 @@ import { turret_road } from './woff/turret_road';
 import { playball } from './woff/playball';
 import { flamenco } from './woff/flamenco';
 import { stardos_stencil } from './woff/stardos_stencil';
+import { new_rocker } from './woff/new_rocker';
 
 const fontFamilies: { [key: string]: FontData } = {
 	// San Serif fonts (fallback: san-serif)
@@ -442,6 +443,11 @@ const fontFamilies: { [key: string]: FontData } = {
 		name: 'Stardos Stencil',
 		family: "'Stardos Stencil', fantasy",
 		woff: stardos_stencil,
+	},
+	new_rocker: {
+		name: 'New Rocker',
+		family: "'New Rocker', fantasy",
+		woff: new_rocker,
 	},
 };
 
