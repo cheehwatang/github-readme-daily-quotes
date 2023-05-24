@@ -46,6 +46,7 @@ import { sofia } from './woff/sofia';
 // Fantasy & Display Fonts
 import { medieval_sharp } from './woff/medieval_sharp';
 import { raleway_dots } from './woff/raleway_dots';
+import { special_elite } from './woff/special_elite';
 
 const fontFamilies: { [key: string]: FontData } = {
 	// San Serif fonts (fallback: san-serif)
@@ -262,6 +263,11 @@ const fontFamilies: { [key: string]: FontData } = {
 		name: 'Raleway Dots',
 		family: "'Raleway Dots', fantasy",
 		woff: raleway_dots,
+	},
+	special_elite: {
+		name: 'Special Elite',
+		family: "'Special Elite', fantasy",
+		woff: special_elite,
 	},
 };
 
