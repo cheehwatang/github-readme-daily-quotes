@@ -55,6 +55,7 @@ import { amita } from './woff/amita';
 import { indie_flower } from './woff/indie_flower';
 import { architects_daughter } from './woff/architects_daughter';
 import { nothing_you_could_do } from './woff/nothing_you_could_do';
+import { marck_script } from './woff/marck_script';
 // Fantasy and Display Fonts
 import { medieval_sharp } from './woff/medieval_sharp';
 import { raleway_dots } from './woff/raleway_dots';
@@ -324,6 +325,11 @@ const fontFamilies: { [key: string]: FontData } = {
 		name: 'Nothing You Could Do',
 		family: "'Nothing You Could Do', fantasy",
 		woff: nothing_you_could_do,
+	},
+	marck_script: {
+		name: 'Marck Script',
+		family: "'Marck Script', fantasy",
+		woff: marck_script,
 	},
 	// Fantasy and Display fonts (fallback: fantasy)
 	medieval_sharp: {
