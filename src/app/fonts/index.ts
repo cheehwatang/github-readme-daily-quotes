@@ -9,6 +9,7 @@ import { calibri } from './woff/calibri';
 import { delius } from './woff/delius';
 import { open_sans } from './woff/open_sans';
 import { roboto } from './woff/roboto';
+import { inter } from './woff/inter';
 // Serif Fonts
 import { times_new_roman } from './woff/times_new_roman';
 import { georgia } from './woff/georgia';
@@ -70,6 +71,11 @@ const fontFamilies: { [key: string]: FontData } = {
 		name: 'Roboto',
 		family: 'Roboto, sans-serif',
 		woff: roboto,
+	},
+	inter: {
+		name: 'Inter',
+		family: 'Inter, sans-serif',
+		woff: inter,
 	},
 	// Serif fonts (fallback: serif)
 	times_new_roman: {
