@@ -74,6 +74,7 @@ import { expletus_sans } from './woff/expletus_sans';
 import { yatra_one } from './woff/yatra_one';
 import { turret_road } from './woff/turret_road';
 import { playball } from './woff/playball';
+import { flamenco } from './woff/flamenco';
 
 const fontFamilies: { [key: string]: FontData } = {
 	// San Serif fonts (fallback: san-serif)
@@ -430,6 +431,11 @@ const fontFamilies: { [key: string]: FontData } = {
 		name: 'Playball',
 		family: 'Playball, cursive',
 		woff: playball,
+	},
+	flamenco: {
+		name: 'Flamenco',
+		family: 'Flamenco, cursive',
+		woff: flamenco,
 	},
 };
 
