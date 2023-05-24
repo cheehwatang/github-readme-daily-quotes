@@ -10,6 +10,7 @@ import { delius } from './woff/delius';
 import { open_sans } from './woff/open_sans';
 import { roboto } from './woff/roboto';
 import { inter } from './woff/inter';
+import { montserrat } from './woff/montserrat';
 // Serif Fonts
 import { times_new_roman } from './woff/times_new_roman';
 import { georgia } from './woff/georgia';
@@ -76,6 +77,11 @@ const fontFamilies: { [key: string]: FontData } = {
 		name: 'Inter',
 		family: 'Inter, sans-serif',
 		woff: inter,
+	},
+	montserrat: {
+		name: 'Montserrat',
+		family: 'Montserrat, sans-serif',
+		woff: montserrat,
 	},
 	// Serif fonts (fallback: serif)
 	times_new_roman: {
