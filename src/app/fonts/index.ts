@@ -4,6 +4,7 @@ import { arial } from './woff/arial';
 import { verdana } from './woff/verdana';
 import { tahoma } from './woff/tahoma';
 import { trebuchet_ms } from './woff/trebuchet_ms';
+import { calibri } from './woff/calibri';
 import { delius } from './woff/delius';
 import { open_sans } from './woff/open_sans';
 import { times_new_roman } from './woff/times_new_roman';
@@ -41,6 +42,11 @@ const fontFamilies: { [key: string]: FontData } = {
 		name: 'Trebuchet MS',
 		family: "'Trebuchet MS', sans-serif",
 		woff: trebuchet_ms,
+	},
+	calibri: {
+		name: 'Calibri',
+		family: 'Calibri, sans-serif',
+		woff: calibri,
 	},
 	delius: {
 		name: 'Delius',
