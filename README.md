@@ -153,8 +153,8 @@ Append the options using the `&` symbol like so:
 
 | OPTION        |    DEFAULT    | AVAILABLE                                                     |
 | ------------- | :-----------: | ------------------------------------------------------------- |
-| theme         | `github_dark` | [All available themes](./src/themes/README.md)                |
-| font          |  `helvetica`  | [All available fonts](./src/fonts/README.md)                  |
+| theme         | `github_dark` | [All available themes](./src/app/themes/README.md)            |
+| font          |  `helvetica`  | [All available fonts](./src/app/fonts/README.md)              |
 | quote         |       -       | Customize your quote                                          |
 | author        |       -       | The name of the quote's author                                |
 | category      |       -       | [All available categories](#quotes-from-category)             |
@@ -301,7 +301,7 @@ Use `theme=THEME_NAME` parameter like so:
 
 Daily Quotes comes with the inbuilt themes (e.g. `light`, `dark`, `vue`, `algolia`, `nord`, `radial`, `dracula`, `monokai`).
 
-You can look at a preview for [all available themes](./src/themes/README.md).
+You can look at a preview for [all available themes](./src/app/themes/README.md).
 
 > Consideration: Accessibility with Good Contrast Colors.
 
@@ -443,7 +443,7 @@ Use `font=FONT_NAME` parameter like so:
 
 Daily Quotes comes with the common fonts (e.g. `helvetica`, `arial`, `verdana`, `tahoma`, `trebuchet_ms`, `times_new_roman`, `georgia`, `garamond`, `courier_new`).
 
-You can look at a preview for [all available fonts](./src/fonts/README.md).
+You can look at a preview for [all available fonts](./src/app/fonts/README.md).
 
 > Consideration: Readability and Accessibility (especially for cursive fonts).
 
