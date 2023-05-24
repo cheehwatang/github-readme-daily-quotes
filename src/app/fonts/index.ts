@@ -34,6 +34,7 @@ import { spectral } from './woff/spectral';
 import { cormorant } from './woff/cormorant';
 import { alegreya } from './woff/alegreya';
 import { rokkitt } from './woff/rokkitt';
+import { gelasio } from './woff/gelasio';
 // Monospace Fonts
 import { courier_new } from './woff/courier_new';
 import { roboto_mono } from './woff/roboto_mono';
@@ -220,6 +221,11 @@ const fontFamilies: { [key: string]: FontData } = {
 		name: 'Rokkitt',
 		family: 'Rokkitt, serif',
 		woff: rokkitt,
+	},
+	gelasio: {
+		name: 'Gelasio',
+		family: 'Gelasio, serif',
+		woff: gelasio,
 	},
 	// Monospace fonts (fallback: monospace)
 	courier_new: {
