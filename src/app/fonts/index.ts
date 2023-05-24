@@ -15,6 +15,7 @@ import { lato } from './woff/lato';
 import { oswald } from './woff/oswald';
 import { pt_sans } from './woff/pt_sans';
 import { source_sans_pro } from './woff/source_sans_pro';
+import { ubuntu } from './woff/ubuntu';
 // Serif Fonts
 import { times_new_roman } from './woff/times_new_roman';
 import { georgia } from './woff/georgia';
@@ -106,6 +107,11 @@ const fontFamilies: { [key: string]: FontData } = {
 		name: 'Source Sans Pro',
 		family: "'Source Sans Pro', sans-serif",
 		woff: source_sans_pro,
+	},
+	ubuntu: {
+		name: 'Ubuntu',
+		family: 'Ubuntu, sans-serif',
+		woff: ubuntu,
 	},
 	// Serif fonts (fallback: serif)
 	times_new_roman: {
