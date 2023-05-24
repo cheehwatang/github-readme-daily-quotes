@@ -29,6 +29,7 @@ import { playfair_display } from './woff/playfair_display';
 import { noto_serif } from './woff/noto_serif';
 import { source_serif_pro } from './woff/source_serif_pro';
 import { spectral } from './woff/spectral';
+import { cormorant } from './woff/cormorant';
 // Monospace Fonts
 import { courier_new } from './woff/courier_new';
 import { roboto_mono } from './woff/roboto_mono';
@@ -184,6 +185,11 @@ const fontFamilies: { [key: string]: FontData } = {
 		name: 'Spectral',
 		family: 'Spectral, serif',
 		woff: spectral,
+	},
+	cormorant: {
+		name: 'Cormorant',
+		family: 'Cormorant, serif',
+		woff: cormorant,
 	},
 	// Monospace fonts (fallback: monospace)
 	courier_new: {
