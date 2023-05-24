@@ -151,20 +151,20 @@ Append the options using the `&` symbol like so:
 ![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?theme=light&category=programming)
 ```
 
-| OPTION        |   DEFAULT   | AVAILABLE                                                     |
-| ------------- | :---------: | ------------------------------------------------------------- |
-| theme         | github_dark | [All available themes](./src/themes/README.md)                |
-| font          |  helvetica  | [All available fonts](./src/fonts/README.md)                  |
-| quote         |      -      | Customize your quote                                          |
-| author        |      -      | The name of the quote's author                                |
-| category      |      -      | programming, stoicism                                         |
-| bg_color      |   0d1117    | Card's background color _(hex color)_                         |
-| quote_color   |   58a6ff    | Quote text color _(hex color)_                                |
-| author_color  |   c3d1d9    | Author text color _(hex color)_                               |
-| accent_color  |   1f6feb    | Accent color for the quotation marks and spacer _(hex color)_ |
-| border_color  |   e4e2e2    | Card's border color _(hex color)_                             |
-| border_width  |      1      | Card's border width (in px) (range from 0 - 5)                |
-| border_radius |      8      | Card's border radius (in px) (range from 0 - 40)              |
+| OPTION        |    DEFAULT    | AVAILABLE                                                     |
+| ------------- | :-----------: | ------------------------------------------------------------- |
+| theme         | `github_dark` | [All available themes](./src/themes/README.md)                |
+| font          |  `helvetica`  | [All available fonts](./src/fonts/README.md)                  |
+| quote         |       -       | Customize your quote                                          |
+| author        |       -       | The name of the quote's author                                |
+| category      |       -       | programming, stoicism                                         |
+| bg_color      |   `0d1117`    | Card's background color _(hex color)_                         |
+| quote_color   |   `58a6ff`    | Quote text color _(hex color)_                                |
+| author_color  |   `c3d1d9`    | Author text color _(hex color)_                               |
+| accent_color  |   `1f6feb`    | Accent color for the quotation marks and spacer _(hex color)_ |
+| border_color  |   `e4e2e2`    | Card's border color _(hex color)_                             |
+| border_width  |      `1`      | Card's border width (in px) (range from 0 - 5)                |
+| border_radius |      `8`      | Card's border radius (in px) (range from 0 - 40)              |
 
 </br>
 
