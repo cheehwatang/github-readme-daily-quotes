@@ -64,6 +64,7 @@ import { redressed } from './woff/redressed';
 import { medieval_sharp } from './woff/medieval_sharp';
 import { raleway_dots } from './woff/raleway_dots';
 import { special_elite } from './woff/special_elite';
+import { mountains_of_christmas } from './woff/mountains_of_christmas';
 
 const fontFamilies: { [key: string]: FontData } = {
 	// San Serif fonts (fallback: san-serif)
@@ -370,6 +371,11 @@ const fontFamilies: { [key: string]: FontData } = {
 		name: 'Special Elite',
 		family: "'Special Elite', fantasy",
 		woff: special_elite,
+	},
+	mountains_of_christmas: {
+		name: 'Mountains of Christmas',
+		family: "'Mountains of Christmas', fantasy",
+		woff: mountains_of_christmas,
 	},
 };
 
