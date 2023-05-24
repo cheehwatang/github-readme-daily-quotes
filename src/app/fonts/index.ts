@@ -17,6 +17,7 @@ import { libre_baskerville } from './woff/libre_baskerville';
 import { roboto_slab } from './woff/roboto_slab';
 // Monospace Fonts
 import { courier_new } from './woff/courier_new';
+import { roboto_mono } from './woff/roboto_mono';
 // Cursive Fonts
 import { merienda } from './woff/merienda';
 import { sofia } from './woff/sofia';
@@ -101,6 +102,11 @@ const fontFamilies: { [key: string]: FontData } = {
 		name: 'Courier New',
 		family: "'Courier New', monospace",
 		woff: courier_new,
+	},
+	roboto_mono: {
+		name: 'Roboto Mono',
+		family: "'Roboto Mono', monospace",
+		woff: roboto_mono,
 	},
 	// Cursive fonts (fallback: cursive)
 	merienda: {
