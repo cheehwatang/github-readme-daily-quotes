@@ -77,6 +77,7 @@ import { playball } from './woff/playball';
 import { flamenco } from './woff/flamenco';
 import { stardos_stencil } from './woff/stardos_stencil';
 import { new_rocker } from './woff/new_rocker';
+import { dotgothic16 } from './woff/dotgothic16';
 
 const fontFamilies: { [key: string]: FontData } = {
 	// San Serif fonts (fallback: san-serif)
@@ -448,6 +449,11 @@ const fontFamilies: { [key: string]: FontData } = {
 		name: 'New Rocker',
 		family: "'New Rocker', fantasy",
 		woff: new_rocker,
+	},
+	dotgothic16: {
+		name: 'DotGothic16',
+		family: 'DotGothic16, cursive',
+		woff: dotgothic16,
 	},
 };
 
