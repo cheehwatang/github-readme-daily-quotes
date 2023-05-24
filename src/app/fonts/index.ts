@@ -43,6 +43,7 @@ import { merienda } from './woff/merienda';
 import { sofia } from './woff/sofia';
 // Fantasy & Display Fonts
 import { medieval_sharp } from './woff/medieval_sharp';
+import { raleway_dots } from './woff/raleway_dots';
 
 const fontFamilies: { [key: string]: FontData } = {
 	// San Serif fonts (fallback: san-serif)
@@ -244,6 +245,11 @@ const fontFamilies: { [key: string]: FontData } = {
 		name: 'MedievalSharp',
 		family: 'MedievalSharp, fantasy',
 		woff: medieval_sharp,
+	},
+	raleway_dots: {
+		name: 'Raleway Dots',
+		family: "'Raleway Dots', fantasy",
+		woff: raleway_dots,
 	},
 };
 
