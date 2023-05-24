@@ -31,6 +31,7 @@ import { source_serif_pro } from './woff/source_serif_pro';
 import { courier_new } from './woff/courier_new';
 import { roboto_mono } from './woff/roboto_mono';
 import { ubuntu_mono } from './woff/ubuntu_mono';
+import { monaco } from './woff/monaco';
 // Cursive Fonts
 import { merienda } from './woff/merienda';
 import { sofia } from './woff/sofia';
@@ -185,6 +186,11 @@ const fontFamilies: { [key: string]: FontData } = {
 		name: 'Ubuntu Mono',
 		family: "'Ubuntu Mono', monospace",
 		woff: ubuntu_mono,
+	},
+	monaco: {
+		name: 'Monaco',
+		family: 'Monaco, cursive',
+		woff: monaco,
 	},
 	// Cursive fonts (fallback: cursive)
 	merienda: {
