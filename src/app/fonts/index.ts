@@ -24,6 +24,7 @@ import { libre_baskerville } from './woff/libre_baskerville';
 import { roboto_slab } from './woff/roboto_slab';
 import { pt_serif } from './woff/pt_serif';
 import { merriweather } from './woff/merriweather';
+import { playfair_display } from './woff/playfair_display';
 // Monospace Fonts
 import { courier_new } from './woff/courier_new';
 import { roboto_mono } from './woff/roboto_mono';
@@ -151,6 +152,11 @@ const fontFamilies: { [key: string]: FontData } = {
 		name: 'Merriweather',
 		family: 'Merriweather, serif',
 		woff: merriweather,
+	},
+	playfair_display: {
+		name: 'Playfair Display',
+		family: "'Playfair Display', serif",
+		woff: playfair_display,
 	},
 	// Monospace fonts (fallback: monospace)
 	courier_new: {
