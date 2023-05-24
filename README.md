@@ -262,6 +262,13 @@ Use `category=QUOTE_CATEGORY` parameter like so:
 ![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?category=programming)
 ```
 
+Note on using `category` parameter:</br>
+Since the API Ninjas only allows 50k requests per month, my https://readme-daily-quotes.vercel.app/api could possibly hit the rate limiter.</br>
+If you host it on your own Vercel server, then you do not have to worry about anything.</br>
+[Deploy](#on-vercel) your own Readme Daily Quotes!
+
+> This does not affect `programming` and `stoicism` category.
+
 </br>
 
 ### Customize Your Quotes
