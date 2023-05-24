@@ -65,6 +65,7 @@ import { medieval_sharp } from './woff/medieval_sharp';
 import { raleway_dots } from './woff/raleway_dots';
 import { special_elite } from './woff/special_elite';
 import { mountains_of_christmas } from './woff/mountains_of_christmas';
+import { lobster_two } from './woff/lobster_two';
 
 const fontFamilies: { [key: string]: FontData } = {
 	// San Serif fonts (fallback: san-serif)
@@ -376,6 +377,11 @@ const fontFamilies: { [key: string]: FontData } = {
 		name: 'Mountains of Christmas',
 		family: "'Mountains of Christmas', fantasy",
 		woff: mountains_of_christmas,
+	},
+	lobster_two: {
+		name: 'Lobster Two',
+		family: "'Lobster Two', fantasy",
+		woff: lobster_two,
 	},
 };
 
