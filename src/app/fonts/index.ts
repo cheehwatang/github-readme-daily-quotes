@@ -25,6 +25,7 @@ import { roboto_slab } from './woff/roboto_slab';
 import { pt_serif } from './woff/pt_serif';
 import { merriweather } from './woff/merriweather';
 import { playfair_display } from './woff/playfair_display';
+import { noto_serif } from './woff/noto_serif';
 // Monospace Fonts
 import { courier_new } from './woff/courier_new';
 import { roboto_mono } from './woff/roboto_mono';
@@ -157,6 +158,11 @@ const fontFamilies: { [key: string]: FontData } = {
 		name: 'Playfair Display',
 		family: "'Playfair Display', serif",
 		woff: playfair_display,
+	},
+	noto_serif: {
+		name: 'Noto Serif',
+		family: "'Noto Serif', serif",
+		woff: noto_serif,
 	},
 	// Monospace fonts (fallback: monospace)
 	courier_new: {
