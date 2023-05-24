@@ -14,6 +14,7 @@ import { times_new_roman } from './woff/times_new_roman';
 import { georgia } from './woff/georgia';
 import { garamond } from './woff/garamond';
 import { libre_baskerville } from './woff/libre_baskerville';
+import { roboto_slab } from './woff/roboto_slab';
 // Monospace Fonts
 import { courier_new } from './woff/courier_new';
 // Cursive Fonts
@@ -89,6 +90,11 @@ const fontFamilies: { [key: string]: FontData } = {
 		name: 'Libre Baskerville',
 		family: "'Libre Baskerville', serif",
 		woff: libre_baskerville,
+	},
+	roboto_slab: {
+		name: 'Roboto Slab',
+		family: "'Roboto Slab', serif",
+		woff: roboto_slab,
 	},
 	// Monospace fonts (fallback: monospace)
 	courier_new: {
