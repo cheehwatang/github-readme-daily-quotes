@@ -66,6 +66,7 @@ import { raleway_dots } from './woff/raleway_dots';
 import { special_elite } from './woff/special_elite';
 import { mountains_of_christmas } from './woff/mountains_of_christmas';
 import { lobster_two } from './woff/lobster_two';
+import { comfortaa } from './woff/comfortaa';
 
 const fontFamilies: { [key: string]: FontData } = {
 	// San Serif fonts (fallback: san-serif)
@@ -382,6 +383,11 @@ const fontFamilies: { [key: string]: FontData } = {
 		name: 'Lobster Two',
 		family: "'Lobster Two', fantasy",
 		woff: lobster_two,
+	},
+	comfortaa: {
+		name: 'Comfortaa',
+		family: 'Comfortaa, cursive',
+		woff: comfortaa,
 	},
 };
 
