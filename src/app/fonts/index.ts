@@ -14,6 +14,7 @@ import { montserrat } from './woff/montserrat';
 import { lato } from './woff/lato';
 import { oswald } from './woff/oswald';
 import { pt_sans } from './woff/pt_sans';
+import { source_sans_pro } from './woff/source_sans_pro';
 // Serif Fonts
 import { times_new_roman } from './woff/times_new_roman';
 import { georgia } from './woff/georgia';
@@ -100,6 +101,11 @@ const fontFamilies: { [key: string]: FontData } = {
 		name: 'PT Sans',
 		family: "'PT Sans', sans-serif",
 		woff: pt_sans,
+	},
+	source_sans_pro: {
+		name: 'Source Sans Pro',
+		family: "'Source Sans Pro', sans-serif",
+		woff: source_sans_pro,
 	},
 	// Serif fonts (fallback: serif)
 	times_new_roman: {
