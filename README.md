@@ -157,7 +157,7 @@ Append the options using the `&` symbol like so:
 | font          |  `helvetica`  | [All available fonts](./src/fonts/README.md)                  |
 | quote         |       -       | Customize your quote                                          |
 | author        |       -       | The name of the quote's author                                |
-| category      |       -       | programming, stoicism                                         |
+| category      |       -       | [All available categories](#quotes-from-category)             |
 | bg_color      |   `0d1117`    | Card's background color _(hex color)_                         |
 | quote_color   |   `58a6ff`    | Quote text color _(hex color)_                                |
 | author_color  |   `c3d1d9`    | Author text color _(hex color)_                               |
@@ -181,18 +181,86 @@ For customization, you can:
 
 ### Quotes from Category
 
-You can select the available category for the quote.
+<details>
+  <summary>You can use the following categories for the quote:</summary>
 
-- Programming
-- Stoicism
+- age
+- alone
+- amazing
+- anger
+- architecture
+- art
+- attitude
+- beauty
+- best
+- birthday
+- business
+- car
+- change
+- communications
+- computers
+- cool
+- courage
+- dad
+- dating
+- death
+- design
+- dreams
+- education
+- environmental
+- equality
+- experience
+- failure
+- faith
+- family
+- famous
+- fear
+- fitness
+- food
+- forgiveness
+- freedom
+- friendship
+- funny
+- future
+- god
+- good
+- government
+- graduation
+- great
+- happiness
+- health
+- history
+- home
+- hope
+- humor
+- imagination
+- inspirational
+- intelligence
+- jealousy
+- knowledge
+- leadership
+- learning
+- legal
+- life
+- love
+- marriage
+- medical
+- men
+- mom
+- money
+- morning
+- movies
+- programming
+- stoicism
+- success
+
+</details>
 
 Use `category=QUOTE_CATEGORY` parameter like so:
 
 ```md
 ![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?category=programming)
 ```
-
-> More category in-progress.
 
 </br>
 
