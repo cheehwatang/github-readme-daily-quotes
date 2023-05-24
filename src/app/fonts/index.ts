@@ -17,6 +17,7 @@ import { pt_sans } from './woff/pt_sans';
 import { source_sans_pro } from './woff/source_sans_pro';
 import { ubuntu } from './woff/ubuntu';
 import { poppins } from './woff/poppins';
+import { raleway } from './woff/raleway';
 // Serif Fonts
 import { times_new_roman } from './woff/times_new_roman';
 import { georgia } from './woff/georgia';
@@ -129,6 +130,11 @@ const fontFamilies: { [key: string]: FontData } = {
 		name: 'Poppins',
 		family: 'Poppins, sans-serif',
 		woff: poppins,
+	},
+	raleway: {
+		name: 'Raleway',
+		family: 'Raleway, sans-serif',
+		woff: raleway,
 	},
 	// Serif fonts (fallback: serif)
 	times_new_roman: {
