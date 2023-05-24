@@ -13,6 +13,7 @@ import { inter } from './woff/inter';
 import { montserrat } from './woff/montserrat';
 import { lato } from './woff/lato';
 import { oswald } from './woff/oswald';
+import { pt_sans } from './woff/pt_sans';
 // Serif Fonts
 import { times_new_roman } from './woff/times_new_roman';
 import { georgia } from './woff/georgia';
@@ -94,6 +95,11 @@ const fontFamilies: { [key: string]: FontData } = {
 		name: 'Oswald',
 		family: 'Oswald, sans-serif',
 		woff: oswald,
+	},
+	pt_sans: {
+		name: 'PT Sans',
+		family: "'PT Sans', sans-serif",
+		woff: pt_sans,
 	},
 	// Serif fonts (fallback: serif)
 	times_new_roman: {
