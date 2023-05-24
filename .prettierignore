@@ -4,8 +4,11 @@ node_modules/
 # Ignore environment variables and private keys.
 .env
 
-# Ignore vercel generated files
+# Ignore vercel generated files.
 .vercel/
 
 # Ignore test coverage folder.
 coverage/
+
+# Ignore package-lock.json for depfu to pass prettier check.
+package-lock.json
