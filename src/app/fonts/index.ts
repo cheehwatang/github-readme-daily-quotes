@@ -56,6 +56,7 @@ import { indie_flower } from './woff/indie_flower';
 import { architects_daughter } from './woff/architects_daughter';
 import { nothing_you_could_do } from './woff/nothing_you_could_do';
 import { marck_script } from './woff/marck_script';
+import { kaushan_script } from './woff/kaushan_script';
 // Fantasy and Display Fonts
 import { medieval_sharp } from './woff/medieval_sharp';
 import { raleway_dots } from './woff/raleway_dots';
@@ -330,6 +331,11 @@ const fontFamilies: { [key: string]: FontData } = {
 		name: 'Marck Script',
 		family: "'Marck Script', fantasy",
 		woff: marck_script,
+	},
+	kaushan_script: {
+		name: 'Kaushan Script',
+		family: "'Kaushan Script', fantasy",
+		woff: kaushan_script,
 	},
 	// Fantasy and Display fonts (fallback: fantasy)
 	medieval_sharp: {
