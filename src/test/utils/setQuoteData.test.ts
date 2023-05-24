@@ -2,6 +2,7 @@ import { setQuoteData, QuoteData } from '../../app/utils/setQuoteData';
 import * as FetchDailyQuote from '../../app/services/fetchDailyQuote';
 import * as FetchStoicismQuote from '../../app/services/fetchStoicismQuote';
 import * as FetchProgrammingQuote from '../../app/services/fetchProgrammingQuote';
+import * as FetchNinjaQuote from '../../app/services/fetchNinjaQuote';
 
 const fetchDailyQuoteSpy = jest.spyOn(FetchDailyQuote, 'fetchDailyQuote');
 const fetchStoicismQuoteSpy = jest.spyOn(
@@ -12,6 +13,7 @@ const fetchProgrammingQuoteSpy = jest.spyOn(
 	FetchProgrammingQuote,
 	'fetchProgrammingQuote'
 );
+const fetchNinjaQuoteSpy = jest.spyOn(FetchNinjaQuote, 'fetchNinjaQuote');
 
 describe('setQuoteData Test Suite', () => {
 	const sut = setQuoteData;
@@ -44,6 +46,15 @@ describe('setQuoteData Test Suite', () => {
 
 		expect(actual).toEqual(quoteDataMock);
 		expect(fetchProgrammingQuoteSpy).toHaveBeenCalledTimes(1);
+	});
+
+	it('should return quote if category is provided', async () => {
+		fetchNinjaQuoteSpy.mockResolvedValueOnce(quoteDataMock);
+
+		const actual = await sut(emptyQuoteData, 'alone');
+
+		expect(actual).toEqual(quoteDataMock);
+		expect(fetchNinjaQuoteSpy).toHaveBeenCalledTimes(1);
 	});
 
 	it('should return custom quote and author if input data with quote and author is provided, and category is empty', async () => {
