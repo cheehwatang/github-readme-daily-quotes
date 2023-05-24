@@ -69,6 +69,7 @@ import { lobster_two } from './woff/lobster_two';
 import { comfortaa } from './woff/comfortaa';
 import { patua_one } from './woff/patua_one';
 import { sail } from './woff/sail';
+import { corben } from './woff/corben';
 
 const fontFamilies: { [key: string]: FontData } = {
 	// San Serif fonts (fallback: san-serif)
@@ -400,6 +401,11 @@ const fontFamilies: { [key: string]: FontData } = {
 		name: 'Sail',
 		family: 'Sail, cursive',
 		woff: sail,
+	},
+	corben: {
+		name: 'Corben',
+		family: 'Corben, cursive',
+		woff: corben,
 	},
 };
 
