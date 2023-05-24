@@ -16,6 +16,7 @@ import { oswald } from './woff/oswald';
 import { pt_sans } from './woff/pt_sans';
 import { source_sans_pro } from './woff/source_sans_pro';
 import { ubuntu } from './woff/ubuntu';
+import { poppins } from './woff/poppins';
 // Serif Fonts
 import { times_new_roman } from './woff/times_new_roman';
 import { georgia } from './woff/georgia';
@@ -120,6 +121,11 @@ const fontFamilies: { [key: string]: FontData } = {
 		name: 'Ubuntu',
 		family: 'Ubuntu, sans-serif',
 		woff: ubuntu,
+	},
+	poppins: {
+		name: 'Poppins',
+		family: 'Poppins, sans-serif',
+		woff: poppins,
 	},
 	// Serif fonts (fallback: serif)
 	times_new_roman: {
