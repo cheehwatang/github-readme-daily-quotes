@@ -53,6 +53,7 @@ import { merienda } from './woff/merienda';
 import { sofia } from './woff/sofia';
 import { amita } from './woff/amita';
 import { indie_flower } from './woff/indie_flower';
+import { architects_daughter } from './woff/architects_daughter';
 // Fantasy and Display Fonts
 import { medieval_sharp } from './woff/medieval_sharp';
 import { raleway_dots } from './woff/raleway_dots';
@@ -312,6 +313,11 @@ const fontFamilies: { [key: string]: FontData } = {
 		name: 'Indie Flower',
 		family: "'Indie Flower', fantasy",
 		woff: indie_flower,
+	},
+	architects_daughter: {
+		name: 'Architects Daughter',
+		family: "'Architects Daughter', fantasy",
+		woff: architects_daughter,
 	},
 	// Fantasy and Display fonts (fallback: fantasy)
 	medieval_sharp: {
