@@ -1,4 +1,5 @@
 import { FontData } from '../utils/setFont';
+// San Serif Fonts
 import { helvetica } from './woff/helvetica';
 import { arial } from './woff/arial';
 import { verdana } from './woff/verdana';
@@ -7,13 +8,18 @@ import { trebuchet_ms } from './woff/trebuchet_ms';
 import { calibri } from './woff/calibri';
 import { delius } from './woff/delius';
 import { open_sans } from './woff/open_sans';
+import { roboto } from './woff/roboto';
+// Serif Fonts
 import { times_new_roman } from './woff/times_new_roman';
 import { georgia } from './woff/georgia';
 import { garamond } from './woff/garamond';
 import { libre_baskerville } from './woff/libre_baskerville';
+// Monospace Fonts
 import { courier_new } from './woff/courier_new';
+// Cursive Fonts
 import { merienda } from './woff/merienda';
 import { sofia } from './woff/sofia';
+// Fantasy & Display Fonts
 import { medieval_sharp } from './woff/medieval_sharp';
 
 const fontFamilies: { [key: string]: FontData } = {
@@ -57,6 +63,11 @@ const fontFamilies: { [key: string]: FontData } = {
 		name: 'Open Sans',
 		family: "'Open Sans', sans-serif",
 		woff: open_sans,
+	},
+	roboto: {
+		name: 'Roboto',
+		family: 'Roboto, sans-serif',
+		woff: roboto,
 	},
 	// Serif fonts (fallback: serif)
 	times_new_roman: {
