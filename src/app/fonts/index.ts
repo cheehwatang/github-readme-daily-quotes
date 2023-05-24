@@ -59,6 +59,7 @@ import { marck_script } from './woff/marck_script';
 import { kaushan_script } from './woff/kaushan_script';
 import { comic_neue } from './woff/comic_neue';
 import { courgette } from './woff/courgette';
+import { redressed } from './woff/redressed';
 // Fantasy and Display Fonts
 import { medieval_sharp } from './woff/medieval_sharp';
 import { raleway_dots } from './woff/raleway_dots';
@@ -348,6 +349,11 @@ const fontFamilies: { [key: string]: FontData } = {
 		name: 'Courgette',
 		family: 'Courgette, cursive',
 		woff: courgette,
+	},
+	redressed: {
+		name: 'Redressed',
+		family: 'Redressed, cursive',
+		woff: redressed,
 	},
 	// Fantasy and Display fonts (fallback: fantasy)
 	medieval_sharp: {
