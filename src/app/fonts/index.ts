@@ -23,6 +23,7 @@ import { garamond } from './woff/garamond';
 import { libre_baskerville } from './woff/libre_baskerville';
 import { roboto_slab } from './woff/roboto_slab';
 import { pt_serif } from './woff/pt_serif';
+import { merriweather } from './woff/merriweather';
 // Monospace Fonts
 import { courier_new } from './woff/courier_new';
 import { roboto_mono } from './woff/roboto_mono';
@@ -145,6 +146,11 @@ const fontFamilies: { [key: string]: FontData } = {
 		name: 'PT Serif',
 		family: "'PT Serif', serif",
 		woff: pt_serif,
+	},
+	merriweather: {
+		name: 'Merriweather',
+		family: 'Merriweather, serif',
+		woff: merriweather,
 	},
 	// Monospace fonts (fallback: monospace)
 	courier_new: {
