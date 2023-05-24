@@ -1,6 +1,7 @@
 import { fetchDailyQuote } from '../services/fetchDailyQuote';
 import { fetchStoicismQuote } from '../services/fetchStoicismQuote';
 import { fetchProgrammingQuote } from '../services/fetchProgrammingQuote';
+import { fetchNinjaQuote } from '../services/fetchNinjaQuote';
 
 type QuoteData = {
 	quote: string;
@@ -12,12 +13,17 @@ const setQuoteData = async (
 	category: string
 ): Promise<QuoteData> => {
 	// If category is provided, call the respective service for quote data.
-	switch (category) {
-		case 'stoicism': {
-			return await fetchStoicismQuote();
-		}
-		case 'programming': {
-			return await fetchProgrammingQuote();
+	if (category) {
+		switch (category) {
+			case 'stoicism': {
+				return await fetchStoicismQuote();
+			}
+			case 'programming': {
+				return await fetchProgrammingQuote();
+			}
+			default: {
+				return await fetchNinjaQuote(category);
+			}
 		}
 	}
 

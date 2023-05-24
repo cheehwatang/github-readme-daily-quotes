@@ -151,20 +151,20 @@ Append the options using the `&` symbol like so:
 ![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?theme=light&category=programming)
 ```
 
-| OPTION        |   DEFAULT   | AVAILABLE                                                     |
-| ------------- | :---------: | ------------------------------------------------------------- |
-| theme         | github_dark | [All available themes](./src/themes/README.md)                |
-| font          |  helvetica  | [All available fonts](./src/fonts/README.md)                  |
-| quote         |      -      | Customize your quote                                          |
-| author        |      -      | The name of the quote's author                                |
-| category      |      -      | programming, stoicism                                         |
-| bg_color      |   0d1117    | Card's background color _(hex color)_                         |
-| quote_color   |   58a6ff    | Quote text color _(hex color)_                                |
-| author_color  |   c3d1d9    | Author text color _(hex color)_                               |
-| accent_color  |   1f6feb    | Accent color for the quotation marks and spacer _(hex color)_ |
-| border_color  |   e4e2e2    | Card's border color _(hex color)_                             |
-| border_width  |      1      | Card's border width (in px) (range from 0 - 5)                |
-| border_radius |      8      | Card's border radius (in px) (range from 0 - 40)              |
+| OPTION        |    DEFAULT    | AVAILABLE                                                     |
+| ------------- | :-----------: | ------------------------------------------------------------- |
+| theme         | `github_dark` | [All available themes](./src/themes/README.md)                |
+| font          |  `helvetica`  | [All available fonts](./src/fonts/README.md)                  |
+| quote         |       -       | Customize your quote                                          |
+| author        |       -       | The name of the quote's author                                |
+| category      |       -       | [All available categories](#quotes-from-category)             |
+| bg_color      |   `0d1117`    | Card's background color _(hex color)_                         |
+| quote_color   |   `58a6ff`    | Quote text color _(hex color)_                                |
+| author_color  |   `c3d1d9`    | Author text color _(hex color)_                               |
+| accent_color  |   `1f6feb`    | Accent color for the quotation marks and spacer _(hex color)_ |
+| border_color  |   `e4e2e2`    | Card's border color _(hex color)_                             |
+| border_width  |      `1`      | Card's border width (in px) (range from 0 - 5)                |
+| border_radius |      `8`      | Card's border radius (in px) (range from 0 - 40)              |
 
 </br>
 
@@ -181,10 +181,80 @@ For customization, you can:
 
 ### Quotes from Category
 
-You can select the available category for the quote.
+<details>
+  <summary>You can use the following categories for the quote:</summary>
 
-- Programming
-- Stoicism
+- age
+- alone
+- amazing
+- anger
+- architecture
+- art
+- attitude
+- beauty
+- best
+- birthday
+- business
+- car
+- change
+- communications
+- computers
+- cool
+- courage
+- dad
+- dating
+- death
+- design
+- dreams
+- education
+- environmental
+- equality
+- experience
+- failure
+- faith
+- family
+- famous
+- fear
+- fitness
+- food
+- forgiveness
+- freedom
+- friendship
+- funny
+- future
+- god
+- good
+- government
+- graduation
+- great
+- happiness
+- health
+- history
+- home
+- hope
+- humor
+- imagination
+- inspirational
+- intelligence
+- jealousy
+- knowledge
+- leadership
+- learning
+- legal
+- life
+- love
+- marriage
+- medical
+- men
+- mom
+- money
+- morning
+- movies
+- programming
+- stoicism
+- success
+
+</details>
 
 Use `category=QUOTE_CATEGORY` parameter like so:
 
@@ -192,7 +262,12 @@ Use `category=QUOTE_CATEGORY` parameter like so:
 ![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api?category=programming)
 ```
 
-> More category in-progress.
+Note on using `category` parameter:</br>
+Since the API Ninjas only allows 50k requests per month, my https://readme-daily-quotes.vercel.app/api could possibly hit the rate limiter.</br>
+If you host it on your own Vercel server, then you do not have to worry about anything.</br>
+[Deploy](#on-vercel) your own Readme Daily Quotes!
+
+> This does not affect `programming` and `stoicism` category.
 
 </br>
 
@@ -419,6 +494,14 @@ Click on the deploy button to get started!
     ![Vercel New Project Page](https://res.cloudinary.com/dsx50recn/image/upload/v1683881309/Github%20Readme%20Daily%20Quotes/Import_Github_Repo_n71zr8.png)
 7.  Click deploy, and you're good to go.
 8.  To access the api, visit `https://[YOUR DOMAIN]/api`
+
+<strong>Optional - To Use Category</strong>
+
+9.  Create an account with [API Ninjas](https://api-ninjas.com/register).
+10. Go to the [API Ninjas Dashboard](https://api-ninjas.com/profile) and copy the API Key.
+    ![API Ninja Dashboard](https://res.cloudinary.com/dsx50recn/image/upload/v1684920472/Github%20Readme%20Daily%20Quotes/Get-Ninja-API-Key_kmeflu.png)
+11. Go to project setting in vercel and add the API key as an environment variable named `API_NINJAS_KEY`, and save (as shown).
+    ![Add API Key to Vercel](https://res.cloudinary.com/dsx50recn/image/upload/v1684921142/Github%20Readme%20Daily%20Quotes/Add-API-Key-to-Vercel_mfgui0.png)
 
 </details>
 

@@ -80,7 +80,7 @@ class QuoteCard {
                 margin-bottom: 10px;
               }
               .text-concat {
-                padding: 4px 16px;
+                padding: 4px 16px 2px;
                 display: -webkit-box;
                 -webkit-line-clamp: 3;
                 -webkit-box-orient: vertical;
