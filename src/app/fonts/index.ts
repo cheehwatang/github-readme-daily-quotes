@@ -68,6 +68,7 @@ import { mountains_of_christmas } from './woff/mountains_of_christmas';
 import { lobster_two } from './woff/lobster_two';
 import { comfortaa } from './woff/comfortaa';
 import { patua_one } from './woff/patua_one';
+import { sail } from './woff/sail';
 
 const fontFamilies: { [key: string]: FontData } = {
 	// San Serif fonts (fallback: san-serif)
@@ -394,6 +395,11 @@ const fontFamilies: { [key: string]: FontData } = {
 		name: 'Patua One',
 		family: "'Patua One', fantasy",
 		woff: patua_one,
+	},
+	sail: {
+		name: 'Sail',
+		family: 'Sail, cursive',
+		woff: sail,
 	},
 };
 
