@@ -71,6 +71,7 @@ import { patua_one } from './woff/patua_one';
 import { sail } from './woff/sail';
 import { corben } from './woff/corben';
 import { expletus_sans } from './woff/expletus_sans';
+import { yatra_one } from './woff/yatra_one';
 
 const fontFamilies: { [key: string]: FontData } = {
 	// San Serif fonts (fallback: san-serif)
@@ -412,6 +413,11 @@ const fontFamilies: { [key: string]: FontData } = {
 		name: 'Expletus Sans',
 		family: "'Expletus Sans', fantasy",
 		woff: expletus_sans,
+	},
+	yatra_one: {
+		name: 'Yatra One',
+		family: "'Yatra One', fantasy",
+		woff: yatra_one,
 	},
 };
 
