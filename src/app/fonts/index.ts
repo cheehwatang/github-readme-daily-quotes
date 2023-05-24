@@ -73,6 +73,7 @@ import { corben } from './woff/corben';
 import { expletus_sans } from './woff/expletus_sans';
 import { yatra_one } from './woff/yatra_one';
 import { turret_road } from './woff/turret_road';
+import { playball } from './woff/playball';
 
 const fontFamilies: { [key: string]: FontData } = {
 	// San Serif fonts (fallback: san-serif)
@@ -424,6 +425,11 @@ const fontFamilies: { [key: string]: FontData } = {
 		name: 'Turret Road',
 		family: "'Turret Road', fantasy",
 		woff: turret_road,
+	},
+	playball: {
+		name: 'Playball',
+		family: 'Playball, cursive',
+		woff: playball,
 	},
 };
 
