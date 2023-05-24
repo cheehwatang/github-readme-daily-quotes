@@ -33,6 +33,7 @@ import { source_serif_pro } from './woff/source_serif_pro';
 import { spectral } from './woff/spectral';
 import { cormorant } from './woff/cormorant';
 import { alegreya } from './woff/alegreya';
+import { rokkitt } from './woff/rokkitt';
 // Monospace Fonts
 import { courier_new } from './woff/courier_new';
 import { roboto_mono } from './woff/roboto_mono';
@@ -214,6 +215,11 @@ const fontFamilies: { [key: string]: FontData } = {
 		name: 'Alegreya',
 		family: 'Alegreya, serif',
 		woff: alegreya,
+	},
+	rokkitt: {
+		name: 'Rokkitt',
+		family: 'Rokkitt, serif',
+		woff: rokkitt,
 	},
 	// Monospace fonts (fallback: monospace)
 	courier_new: {
