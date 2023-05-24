@@ -18,6 +18,7 @@ import { source_sans_pro } from './woff/source_sans_pro';
 import { ubuntu } from './woff/ubuntu';
 import { poppins } from './woff/poppins';
 import { raleway } from './woff/raleway';
+import { nunito } from './woff/nunito';
 // Serif Fonts
 import { times_new_roman } from './woff/times_new_roman';
 import { georgia } from './woff/georgia';
@@ -136,6 +137,11 @@ const fontFamilies: { [key: string]: FontData } = {
 		name: 'Raleway',
 		family: 'Raleway, sans-serif',
 		woff: raleway,
+	},
+	nunito: {
+		name: 'Nunito',
+		family: 'Nunito, sans-serif',
+		woff: nunito,
 	},
 	// Serif fonts (fallback: serif)
 	times_new_roman: {
