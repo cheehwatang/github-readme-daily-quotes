@@ -26,6 +26,7 @@ import { pt_serif } from './woff/pt_serif';
 import { merriweather } from './woff/merriweather';
 import { playfair_display } from './woff/playfair_display';
 import { noto_serif } from './woff/noto_serif';
+import { source_serif_pro } from './woff/source_serif_pro';
 // Monospace Fonts
 import { courier_new } from './woff/courier_new';
 import { roboto_mono } from './woff/roboto_mono';
@@ -163,6 +164,11 @@ const fontFamilies: { [key: string]: FontData } = {
 		name: 'Noto Serif',
 		family: "'Noto Serif', serif",
 		woff: noto_serif,
+	},
+	source_serif_pro: {
+		name: 'Source Serif Pro',
+		family: "'Source Serif Pro', serif",
+		woff: source_serif_pro,
 	},
 	// Monospace fonts (fallback: monospace)
 	courier_new: {
