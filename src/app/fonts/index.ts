@@ -34,6 +34,7 @@ import { roboto_mono } from './woff/roboto_mono';
 import { ubuntu_mono } from './woff/ubuntu_mono';
 import { space_mono } from './woff/space_mono';
 import { monaco } from './woff/monaco';
+import { inconsolata } from './woff/inconsolata';
 // Cursive Fonts
 import { merienda } from './woff/merienda';
 import { sofia } from './woff/sofia';
@@ -203,6 +204,11 @@ const fontFamilies: { [key: string]: FontData } = {
 		name: 'Monaco',
 		family: 'Monaco, cursive',
 		woff: monaco,
+	},
+	inconsolata: {
+		name: 'Inconsolata',
+		family: 'Inconsolata, cursive',
+		woff: inconsolata,
 	},
 	// Cursive fonts (fallback: cursive)
 	merienda: {
