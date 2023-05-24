@@ -70,6 +70,7 @@ import { comfortaa } from './woff/comfortaa';
 import { patua_one } from './woff/patua_one';
 import { sail } from './woff/sail';
 import { corben } from './woff/corben';
+import { expletus_sans } from './woff/expletus_sans';
 
 const fontFamilies: { [key: string]: FontData } = {
 	// San Serif fonts (fallback: san-serif)
@@ -406,6 +407,11 @@ const fontFamilies: { [key: string]: FontData } = {
 		name: 'Corben',
 		family: 'Corben, cursive',
 		woff: corben,
+	},
+	expletus_sans: {
+		name: 'Expletus Sans',
+		family: "'Expletus Sans', fantasy",
+		woff: expletus_sans,
 	},
 };
 
