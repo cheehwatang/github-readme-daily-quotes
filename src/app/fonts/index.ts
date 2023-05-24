@@ -11,6 +11,7 @@ import { open_sans } from './woff/open_sans';
 import { roboto } from './woff/roboto';
 import { inter } from './woff/inter';
 import { montserrat } from './woff/montserrat';
+import { lato } from './woff/lato';
 // Serif Fonts
 import { times_new_roman } from './woff/times_new_roman';
 import { georgia } from './woff/georgia';
@@ -82,6 +83,11 @@ const fontFamilies: { [key: string]: FontData } = {
 		name: 'Montserrat',
 		family: 'Montserrat, sans-serif',
 		woff: montserrat,
+	},
+	lato: {
+		name: 'Lato',
+		family: 'Lato, sans-serif',
+		woff: lato,
 	},
 	// Serif fonts (fallback: serif)
 	times_new_roman: {
