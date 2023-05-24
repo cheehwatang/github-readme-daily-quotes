@@ -80,6 +80,7 @@ import { new_rocker } from './woff/new_rocker';
 import { dotgothic16 } from './woff/dotgothic16';
 import { vt323 } from './woff/vt323';
 import { press_start_2p } from './woff/press_start_2p';
+import { arcade } from './woff/arcade';
 
 const fontFamilies: { [key: string]: FontData } = {
 	// San Serif fonts (fallback: san-serif)
@@ -466,6 +467,11 @@ const fontFamilies: { [key: string]: FontData } = {
 		name: 'Press Start 2P',
 		family: "'Press Start 2P', fantasy",
 		woff: press_start_2p,
+	},
+	arcade: {
+		name: 'Arcade',
+		family: 'Arcade, cursive',
+		woff: arcade,
 	},
 };
 
