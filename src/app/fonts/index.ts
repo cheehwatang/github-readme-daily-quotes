@@ -22,6 +22,7 @@ import { georgia } from './woff/georgia';
 import { garamond } from './woff/garamond';
 import { libre_baskerville } from './woff/libre_baskerville';
 import { roboto_slab } from './woff/roboto_slab';
+import { pt_serif } from './woff/pt_serif';
 // Monospace Fonts
 import { courier_new } from './woff/courier_new';
 import { roboto_mono } from './woff/roboto_mono';
@@ -139,6 +140,11 @@ const fontFamilies: { [key: string]: FontData } = {
 		name: 'Roboto Slab',
 		family: "'Roboto Slab', serif",
 		woff: roboto_slab,
+	},
+	pt_serif: {
+		name: 'PT Serif',
+		family: "'PT Serif', serif",
+		woff: pt_serif,
 	},
 	// Monospace fonts (fallback: monospace)
 	courier_new: {
