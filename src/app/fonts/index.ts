@@ -42,6 +42,7 @@ import { monaco } from './woff/monaco';
 import { inconsolata } from './woff/inconsolata';
 import { cousine } from './woff/cousine';
 import { source_code_pro } from './woff/source_code_pro';
+import { pt_mono } from './woff/pt_mono';
 // Cursive Fonts
 import { merienda } from './woff/merienda';
 import { sofia } from './woff/sofia';
@@ -253,6 +254,11 @@ const fontFamilies: { [key: string]: FontData } = {
 		name: 'Source Code Pro',
 		family: "'Source Code Pro', monospace",
 		woff: source_code_pro,
+	},
+	pt_mono: {
+		name: 'PT Mono',
+		family: "'PT Mono', monospace",
+		woff: pt_mono,
 	},
 	// Cursive fonts (fallback: cursive)
 	merienda: {
