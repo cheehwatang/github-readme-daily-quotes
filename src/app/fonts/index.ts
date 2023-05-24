@@ -35,6 +35,7 @@ import { cormorant } from './woff/cormorant';
 import { alegreya } from './woff/alegreya';
 import { rokkitt } from './woff/rokkitt';
 import { gelasio } from './woff/gelasio';
+import { eczar } from './woff/eczar';
 // Monospace Fonts
 import { courier_new } from './woff/courier_new';
 import { roboto_mono } from './woff/roboto_mono';
@@ -226,6 +227,11 @@ const fontFamilies: { [key: string]: FontData } = {
 		name: 'Gelasio',
 		family: 'Gelasio, serif',
 		woff: gelasio,
+	},
+	eczar: {
+		name: 'Eczar',
+		family: 'Eczar, serif',
+		woff: eczar,
 	},
 	// Monospace fonts (fallback: monospace)
 	courier_new: {
