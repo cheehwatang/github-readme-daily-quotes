@@ -488,6 +488,14 @@ Click on the deploy button to get started!
 7.  Click deploy, and you're good to go.
 8.  To access the api, visit `https://[YOUR DOMAIN]/api`
 
+<strong>Optional - To Use Category</strong>
+
+9.  Create an account with [API Ninjas](https://api-ninjas.com/register).
+10. Go to the [API Ninjas Dashboard](https://api-ninjas.com/profile) and copy the API Key.
+    ![API Ninja Dashboard](https://res.cloudinary.com/dsx50recn/image/upload/v1684920472/Github%20Readme%20Daily%20Quotes/Get-Ninja-API-Key_kmeflu.png)
+11. Go to project setting in vercel and add the API key as an environment variable named `API_NINJAS_KEY`, and save (as shown).
+    ![Add API Key to Vercel](https://res.cloudinary.com/dsx50recn/image/upload/v1684921142/Github%20Readme%20Daily%20Quotes/Add-API-Key-to-Vercel_mfgui0.png)
+
 </details>
 
 ### Keep your fork up to date
