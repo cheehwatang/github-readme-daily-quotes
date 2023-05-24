@@ -19,6 +19,7 @@ import { ubuntu } from './woff/ubuntu';
 import { poppins } from './woff/poppins';
 import { raleway } from './woff/raleway';
 import { nunito } from './woff/nunito';
+import { quicksand } from './woff/quicksand';
 // Serif Fonts
 import { times_new_roman } from './woff/times_new_roman';
 import { georgia } from './woff/georgia';
@@ -151,6 +152,11 @@ const fontFamilies: { [key: string]: FontData } = {
 		name: 'Nunito',
 		family: 'Nunito, sans-serif',
 		woff: nunito,
+	},
+	quicksand: {
+		name: 'Quicksand',
+		family: 'Quicksand, sans-serif',
+		woff: quicksand,
 	},
 	// Serif fonts (fallback: serif)
 	times_new_roman: {
