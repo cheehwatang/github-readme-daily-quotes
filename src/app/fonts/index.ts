@@ -114,15 +114,15 @@ const fontFamilies: { [key: string]: FontData } = {
 		family: 'Calibri, sans-serif',
 		woff: calibri,
 	},
-	delius: {
-		name: 'Delius',
-		family: 'Delius, sans-serif',
-		woff: delius,
-	},
 	open_sans: {
 		name: 'Open Sans',
 		family: "'Open Sans', sans-serif",
 		woff: open_sans,
+	},
+	delius: {
+		name: 'Delius',
+		family: 'Delius, sans-serif',
+		woff: delius,
 	},
 	roboto: {
 		name: 'Roboto',
