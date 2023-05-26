@@ -511,6 +511,14 @@ You can keep your fork, and thus your private Vercel instance up to date with th
 
 </br>
 
+## 🙏 Contributions
+
+If you wish to contribute to the project, please refer to the [Contributing Guidelines](./CONTRIBUTING.md).
+
+I thank you in advance!
+
+</br>
+
 ## 🌟 Special Thanks
 
 <blockquote>
