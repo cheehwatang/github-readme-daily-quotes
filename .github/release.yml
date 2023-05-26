@@ -1,0 +1,14 @@
+changelog:
+  categories:
+    - title: ✨ New Features
+      labels:
+        - '✨ new feature'
+    - title: 🐛 Bug Fixes
+      labels:
+        - '🐛 bug'
+    - title: Dependencies Updates
+      labels:
+        - depfu
+    - title: Other Changes
+      labels:
+        - '*'
