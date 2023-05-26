@@ -569,6 +569,14 @@ You can keep your fork, and thus your private Vercel instance up to date with th
     </a>
   </li>
   <li>
+    <a href="https://api-ninjas.com/api/quotes#gh-dark-mode-only">
+      <img src="https://img.shields.io/badge/API Ninjas-0D1117?style=flat-square#gh-dark-mode-only"/>
+    </a>
+    <a href="https://api-ninjas.com/api/quotes#gh-light-mode-only">
+      <img src="https://img.shields.io/badge/API Ninjas-FFFFFF?style=flat-square#gh-light-mode-only"/>
+    </a>
+  </li>
+  <li>
     <a href="https://github.com/tlcheah2/stoic-quote-lambda-public-api#gh-dark-mode-only">
       <img src="https://img.shields.io/badge/Stoicism Quote API-0D1117?style=flat-square#gh-dark-mode-only"/>
     </a>
