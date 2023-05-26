@@ -163,8 +163,8 @@ Append the options using the `&` symbol like so:
 | author_color  |   `c3d1d9`    | Author text color _(hex color)_                               |
 | accent_color  |   `1f6feb`    | Accent color for the quotation marks and spacer _(hex color)_ |
 | border_color  |   `e4e2e2`    | Card's border color _(hex color)_                             |
-| border_width  |      `1`      | Card's border width (in px) (range from 0 - 5)                |
-| border_radius |      `8`      | Card's border radius (in px) (range from 0 - 40)              |
+| border_width  |      `1`      | Card's border width (in px) (range from `0 - 5`)              |
+| border_radius |      `8`      | Card's border radius (in px) (range from `0 - 40`)            |
 
 </br>
 
@@ -511,6 +511,14 @@ You can keep your fork, and thus your private Vercel instance up to date with th
 
 </br>
 
+## 🙏 Contributions
+
+If you wish to contribute to the project, please refer to the [Contributing Guidelines](./CONTRIBUTING.md).
+
+I thank you in advance!
+
+</br>
+
 ## 🌟 Special Thanks
 
 <blockquote>
@@ -566,6 +574,14 @@ You can keep your fork, and thus your private Vercel instance up to date with th
     </a>
     <a href="https://zenquotes.io#gh-light-mode-only">
       <img src="https://img.shields.io/badge/ZenQuotes.io-FFFFFF?style=flat-square#gh-light-mode-only"/>
+    </a>
+  </li>
+  <li>
+    <a href="https://api-ninjas.com/api/quotes#gh-dark-mode-only">
+      <img src="https://img.shields.io/badge/API Ninjas-0D1117?style=flat-square#gh-dark-mode-only"/>
+    </a>
+    <a href="https://api-ninjas.com/api/quotes#gh-light-mode-only">
+      <img src="https://img.shields.io/badge/API Ninjas-FFFFFF?style=flat-square#gh-light-mode-only"/>
     </a>
   </li>
   <li>
