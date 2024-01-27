@@ -41,6 +41,6 @@
 		"vercel": "^29.4.0"
 	},
 	"dependencies": {
-		"axios": "^1.6.2"
+		"axios": "^1.6.7"
 	}
 }
