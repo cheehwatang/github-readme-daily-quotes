@@ -38,7 +38,7 @@
 		"prettier": "^2.8.8",
 		"ts-jest": "^29.4.1",
 		"typescript": "^5.9.2",
-		"vercel": "^29.4.0"
+		"vercel": "^48.0.0"
 	},
 	"dependencies": {
 		"axios": "^1.12.0"
